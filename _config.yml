@@ -11,7 +11,7 @@ url: "https://w5133.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
