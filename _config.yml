@@ -4,9 +4,8 @@
 title: W5133 Research Group
 email: contact@w5133.github.io
 description: >- # This is a YAML multiline string. Adjust accordingly.
-  The W5133 Research Group focuses on innovative research in computational
-  science, dedicated to advancing knowledge and technology. Join us for
-  regular meetings and explore our annual reports.
+  The W5133 Research Group focuses on innovative research in land use, non-market valuation and recreation on public lands.
+  Join us for regular meetings and explore our annual reports.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://w5133.github.io" # the base hostname & protocol for your site
 
@@ -74,14 +73,3 @@ disqus:
 
 # Optional Features
 # Localization settings, plugins configurations, etc., based on your needs.
-
-
-
-
-
-
-collections:
-  meetings:
-    output: true
-    permalink: /:collection/:name/
-    
