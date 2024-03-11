@@ -1,5 +1,5 @@
 ---
-title: "W5133 Multi State Project"
+title: "Home"
 ---
 
 Welcome to the W5133 Research Group
