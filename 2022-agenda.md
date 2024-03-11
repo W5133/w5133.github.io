@@ -1,4 +1,6 @@
-
+---
+exclude_from_nav: true
+---
 ## 2022 Annual Meeting
 **April 25-27, 2022**  
 **The Hood River Hotel, Hood River, Oregon**
