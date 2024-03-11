@@ -1,6 +1,5 @@
 ---
 title: Home
-layout: default
 ---
 
 Welcome to the W5133 Research Group
