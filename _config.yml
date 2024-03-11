@@ -1,1 +1,5 @@
 theme: minima
+nav:
+  - Home: 'index.md'
+  - Annual Reports: 'annual-reports.md'
+  
