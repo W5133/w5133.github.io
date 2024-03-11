@@ -1,5 +1,6 @@
-
-
+---
+exclude_from_nav: true
+---
 ## 2024 Annual Meeting
 **Feb 28-Mar 1, 2024**  
 **The Elizabeth Hotel, Fort Collins, CO**
