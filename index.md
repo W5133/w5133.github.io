@@ -14,6 +14,7 @@ The core mission of the W4133 research group (and all prior iterations) has been
 ## Past Meetings and Programs
 
 - **Fort Collins, CO - February 28 - March 1, 2024**
+  - [2023 Agenda](/2024-agenda)   
 - **New Orleans, LA - March 1 - March 3, 2023** 
 - **Hood River, OR - April 25 - April 27, 2022** (Recharter Year)
 - **Virtual - March 3 - March 5, 2021**
