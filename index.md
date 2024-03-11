@@ -13,7 +13,7 @@ The core mission of the W4133 research group (and all prior iterations) has been
 
 ## Past Meetings and Programs
 
-- **Burlington, Vermont - 2025** More information coming soon
+- **February 28 - March 1, 2024 | Fort Collins, CO** 
 
 ## Annual Reports
 
