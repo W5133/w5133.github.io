@@ -1,5 +1,3 @@
-# W5133: Economic Valuation and Management of Natural Resources on Public and Private Lands
-
 ## 2023 Annual Meeting
 **March 1-3, 2023**  
 **The NOPSI Hotel, New Orleans, LA**
