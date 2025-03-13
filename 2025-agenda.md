@@ -47,8 +47,10 @@ All times are in local time (EST) and will occur at Hotel Vermont.
 ### Wednesday, March 5, 2025  
 - **5:00 PM:** Reception (Hotel Vermont, Van Ness Room) - Light snacks and Cash bar  
 - **7:00 PM:** Dinner on your own  
-- **8:30 PM - 10:30 PM:** Live Jazz (Hotel Vermont, Juniper) *(optional)*  
+- **8:30 PM - 10:30 PM:** Live Jazz (Hotel Vermont, Juniper) *(optional)*
 
+
+---
 ### Thursday, March 6, 2025  
 *All sessions will take place in Juniper Hall, Hotel Vermont.*  
 - **7:45 AM:** Registration and Breakfast  
