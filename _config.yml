@@ -1,5 +1,28 @@
 theme: minima
+title: "W5133 Multistate Working Group"
+baseurl: "" # Change if using a subdirectory
+url: "https://w5133.github.io"
+
+# Navigation menu
 nav:
-  - Home: 'index.md'
-  - Annual Reports: 'annual-reports.md'
+  - title: "Home"
+    url: "/"
+  - title: "Annual Reports"
+    url: "/annual-reports.md"
+  - title: "Past Meetings"
+    subitems:
+      - title: "2025 Meeting"
+        url: "/2025-agenda.md"
+      - title: "2024 Meeting"
+        url: "/2024-agenda.md"
+      - title: "2023 Meeting"
+        url: "/2023-agenda.md"
+       - title: "2022 Meeting"
+        url: "/2022-agenda.md"
+
+
+#old code
+#nav:
+#  - Home: 'index.md'
+#  - Annual Reports: 'annual-reports.md'
   
