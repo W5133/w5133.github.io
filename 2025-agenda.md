@@ -16,6 +16,8 @@ title: 2025 Annual Meeting
 
 # W5133 Research Objectives  
 
+---
+
 ### Objective 1: Evaluate Natural Resource Management Decisions and the Effects of Climate Change  
 - **Task 1-1:** Quantify the Direct and Indirect Impacts of Management Decisions Affecting Agricultural Land, Forests, and Land Use Change  
 - **Task 1-2:** Assess How Public and Private Actions Impact Water Quality and Scarcity  
