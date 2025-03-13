@@ -12,10 +12,12 @@ The core mission of the W4133 research group (and all prior iterations) has been
 
 ## Upcoming Meetings
 
-- **Burlington, Vermont 2025** More information coming soon
+- **TBA 2026** More information coming soon
 
 ## Past Meetings and Programs
 
+- **Burlington, Vermont 2025** More information coming soon
+  - [2025 Agenda](/2025-agenda)  
 - **Fort Collins, CO - February 28 - March 1, 2024**
   - [2024 Agenda](/2024-agenda)   
 - **New Orleans, LA - March 1 - March 3, 2023**
