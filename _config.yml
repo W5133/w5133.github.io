@@ -5,6 +5,7 @@ plugins:
   - jekyll-include-cache
 
 title: "W5133 Multi-State Project"
+
 # Pages to include in the top navigation bar
 header_pages:
   - index.md
@@ -13,6 +14,12 @@ header_pages:
   - 2024-agenda.md
   - 2023-agenda.md
   - 2022-agenda.md
+
+# Theme settings (optional, but useful)
+minimal_mistakes_skin: "default"
+logo: "" # Remove or add a logo
+search: true
+
 
 
 # Define custom navigation links
