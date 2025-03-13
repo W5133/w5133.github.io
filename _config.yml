@@ -1,6 +1,5 @@
 theme: minima
 
-
 # Navigation menu
 nav:
   - title: "Home"
@@ -15,8 +14,9 @@ nav:
         url: "/2024-agenda.md"
       - title: "2023 Meeting"
         url: "/2023-agenda.md"
-       - title: "2022 Meeting"
+      - title: "2022 Meeting"  # Fix indentation here
         url: "/2022-agenda.md"
+
 
 
 #old code
