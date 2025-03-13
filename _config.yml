@@ -5,17 +5,17 @@ nav:
   - title: "Home"
     url: "/"
   - title: "Annual Reports"
-    url: "/annual-reports.md"
+    url: "/annual-reports"
   - title: "Past Meetings"
     subitems:
       - title: "2025 Meeting"
-        url: "/2025-agenda.md"
+        url: "/2025-agenda"
       - title: "2024 Meeting"
-        url: "/2024-agenda.md"
+        url: "/2024-agenda"
       - title: "2023 Meeting"
-        url: "/2023-agenda.md"
+        url: "/2023-agenda"
       - title: "2022 Meeting"  # Fix indentation here
-        url: "/2022-agenda.md"
+        url: "/2022-agenda"
 
 
 
