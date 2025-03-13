@@ -15,23 +15,7 @@ header_pages:
   - contact.md
 
 # Define custom navigation links
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Annual Reports"
-    url: "/annual-reports/"
-  - title: "Past Meetings"
-    children:
-      - title: "2025 Meeting"
-        url: "/2025-agenda/"
-      - title: "2024 Meeting"
-        url: "/2024-agenda/"
-      - title: "2023 Meeting"
-        url: "/2023-agenda/"
-      - title: "2022 Meeting"
-        url: "/2022-agenda/"
-  - title: "Contact"
-    url: "/contact/"
+
 
 
 
