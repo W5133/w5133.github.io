@@ -7,8 +7,6 @@ plugins:
 title: "W5133 Multi-State Project"
 
 
-nav:
-  - title: "Home"
-    url: "/index.md"
-  - title: "Test"
-    url: "/test.md"
+nav_pages:
+  - index.md
+  - test.md
