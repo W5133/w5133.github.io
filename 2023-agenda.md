@@ -1,7 +1,7 @@
 ---
 title: "2023 Annual Meeting"
 layout: single
-permalink /2023-agenda/
+permalink: /2023-agenda/
 ---
 
 **March 1-3, 2023**  
