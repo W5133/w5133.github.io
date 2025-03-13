@@ -1,1 +1,19 @@
+<nav>
+  <ul>
+    {% for item in site.nav %}
+      {% if item.subitems %}
+        <li class="dropdown">
+          <a href="#" class="dropbtn">{{ item.title }} ▼</a>
+          <ul class="dropdown-content">
+            {% for sub in item.subitems %}
+              <li><a href="{{ sub.url }}">{{ sub.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% else %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
 
