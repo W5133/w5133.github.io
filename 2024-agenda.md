@@ -1,6 +1,7 @@
 ---
-exclude_from_nav: true
-title: 2024 Annual Meeting
+title: "2024 Annual Meeting"
+layout: single
+permalink: /2024-agenda/
 ---
 
 **Feb 28-Mar 1, 2024**  
