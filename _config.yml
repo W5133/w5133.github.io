@@ -1,4 +1,4 @@
-remote_theme: "jekyll/minima"
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
 plugins:
   - jekyll-remote-theme
