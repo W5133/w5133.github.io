@@ -1,4 +1,4 @@
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Navigation menu
 nav:
