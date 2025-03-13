@@ -1,6 +1,6 @@
 ---
-title: "2022 Annual Meeting"
-layout: single
+title: 2022 Annual Meeting
+layout: page
 permalink: /2022-agenda/
 ---
 
