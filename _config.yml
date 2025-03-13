@@ -1,7 +1,5 @@
 theme: minima
-title: "W5133 Multistate Working Group"
-baseurl: "" # Change if using a subdirectory
-url: "https://w5133.github.io"
+
 
 # Navigation menu
 nav:
