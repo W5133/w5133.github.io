@@ -1,7 +1,6 @@
 ---
 title: "Home"
 layout: single
-permalink: /index/
 ---
 
 
