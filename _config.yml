@@ -4,6 +4,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
+title: "W5133 Multi-State Project"
 # Pages to include in the top navigation bar
 header_pages:
   - index
