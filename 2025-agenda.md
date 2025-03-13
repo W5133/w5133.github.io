@@ -40,6 +40,8 @@ title: 2025 Annual Meeting
 **(Must be paid by check or cash.)**  
 
 ## Meeting Agenda  
+
+---
 All times are in local time (EST) and will occur at Hotel Vermont.  
 
 ### Wednesday, March 5, 2025  
