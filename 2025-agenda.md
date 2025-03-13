@@ -1,6 +1,6 @@
 ---
-title: "2025 Annual Meeting"
-layout: single
+title: 2025 Annual Meeting
+layout: page
 permalink: /2025-agenda/
 ---
 
