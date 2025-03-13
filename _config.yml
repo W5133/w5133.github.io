@@ -9,17 +9,17 @@ title: "W5133 Multi-State Project"
 # Pages to include in the top navigation bar
 nav:
   - title: "Home"
-    url:  "/index.md" 
+    url: "/index"
   - title: "Annual Reports"
-    url: "/annual-reports.nd" # or "/annual-reports.md"
+    url: "/annual-reports"
   - title: "2025 Agenda"
-    url: "/2025-agenda.nd" # or "/2025-agenda.md"
+    url: "/2025-agenda"
   - title: "2024 Agenda"
-    url: "/2024-agenda.md" # or "/2024-agenda.md"
+    url: "/2024-agenda"
   - title: "2023 Agenda"
-    url: "/2023-agenda.md" # or "/2023-agenda.md"
+    url: "/2023-agenda"
   - title: "2022 Agenda"
-    url: "/2022-agenda.md" # or "/2022-agenda.md"
+    url: "/2022-agenda"
 # Theme settings (optional, but useful)
 minimal_mistakes_skin: "default"
 logo: "" # Remove or add a logo
