@@ -1,6 +1,6 @@
 ---
-title: "2023 Annual Meeting"
-layout: single
+title: 2023 Annual Meeting
+layout: page
 permalink: /2023-agenda/
 ---
 
