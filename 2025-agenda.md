@@ -1,7 +1,7 @@
 ---
 exclude_from_nav: true
 ---
-## 2025 Annual Meeting  
+# 2025 Annual Meeting  
 **Mar 5-7, 2025**  
 **Hotel Vermont, Burlington, VT**  
 
@@ -13,7 +13,7 @@ exclude_from_nav: true
 - **Jude Bayham, Secretary** - Colorado State University - `Jude.bayham@colostate.edu`  
 - **Kenneth White, Administrative Advisor** - Utah State University - `ken.white@usu.edu`  
 
-## W5133 Research Objectives  
+# W5133 Research Objectives  
 
 ### Objective 1: Evaluate Natural Resource Management Decisions and the Effects of Climate Change  
 - **Task 1-1:** Quantify the Direct and Indirect Impacts of Management Decisions Affecting Agricultural Land, Forests, and Land Use Change  
