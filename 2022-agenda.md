@@ -1,7 +1,7 @@
 ---
 title: "2022 Annual Meeting"
 layout: single
-permalink /2022-agenda/
+permalink: /2022-agenda/
 ---
 
 **April 25-27, 2022**  
