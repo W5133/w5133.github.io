@@ -7,12 +7,12 @@ plugins:
 title: "W5133 Multi-State Project"
 # Pages to include in the top navigation bar
 header_pages:
-  - index.html
-  - annual-reports.html
-  - 2025-agenda.html
-  - 2024-agenda.html
-  - 2023-agenda.html
-  - 2022-agenda.html
+  - index.md
+  - annual-reports.md
+  - 2025-agenda.md
+  - 2024-agenda.md
+  - 2023-agenda.md
+  - 2022-agenda.md
 
 
 # Define custom navigation links
