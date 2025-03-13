@@ -1,4 +1,4 @@
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+remote_theme: minima
 
 plugins:
   - jekyll-remote-theme
@@ -7,6 +7,3 @@ plugins:
 title: "W5133 Multi-State Project"
 
 
-nav_pages:
-  - index.md
-  - test.md
