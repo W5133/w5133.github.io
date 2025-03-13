@@ -5,22 +5,30 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 
 # Navigation menu
-nav:
+header_pages:
+  - index.md
+  - annual-reports.md
+  - 2025-agenda.md
+  - 2024-agenda.md
+  - 2023-agenda.md
+  - 2022-agenda.md
+  - contact.md
+
+navigation:
   - title: "Home"
     url: "/"
   - title: "Annual Reports"
-    url: "/annual-reports"
+    url: "/annual-reports/"
   - title: "Past Meetings"
-    subitems:
+    children:
       - title: "2025 Meeting"
-        url: "/2025-agenda"
+        url: "/2025-agenda/"
       - title: "2024 Meeting"
-        url: "/2024-agenda"
+        url: "/2024-agenda/"
       - title: "2023 Meeting"
-        url: "/2023-agenda"
-      - title: "2022 Meeting"  # Fix indentation here
-        url: "/2022-agenda"
-
+        url: "/2023-agenda/"
+      - title: "2022 Meeting"
+        url: "/2022-agenda/"
 
 
 #old code
