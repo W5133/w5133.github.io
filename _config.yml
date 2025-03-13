@@ -6,13 +6,13 @@ plugins:
 
 # Pages to include in the top navigation bar
 header_pages:
-  - index.md
-  - annual-reports.md
-  - 2025-agenda.md
-  - 2024-agenda.md
-  - 2023-agenda.md
-  - 2022-agenda.md
-  - contact.md
+  - index
+  - annual-reports
+  - 2025-agenda
+  - 2024-agenda
+  - 2023-agenda
+  - 2022-agenda
+  - contact
 
 # Define custom navigation links
 
