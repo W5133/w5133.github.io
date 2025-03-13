@@ -1,6 +1,7 @@
 ---
-exclude_from_nav: true
-title: 2025 Annual Meeting
+title: "2025 Annual Meeting"
+layout: single
+permalink: /2025-agenda/
 ---
 
 **Mar 5-7, 2025**  
