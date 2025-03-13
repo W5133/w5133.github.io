@@ -1,6 +1,8 @@
-remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache  # 👈 Required for include_cached
+remote_theme: "mmistakes/minimal-mistakes"
+
 
 # Navigation menu
 nav:
