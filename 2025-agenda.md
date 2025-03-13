@@ -96,8 +96,9 @@ All times are in local time (EST) and will occur at Hotel Vermont.
 
 - **5:00 PM:** Adjourn  
 - **5:10 PM:** W5133 Annual Business Meeting  
-- **6:00 PM:** W5133 Dinner Scramble  
+- **6:00 PM:** W5133 Dinner Scramble
 
+---
 ### Friday, March 7, 2025  
 *All sessions will take place in Juniper Hall, Hotel Vermont.*  
 - **8:00 AM:** Breakfast  
