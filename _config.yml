@@ -8,12 +8,12 @@ title: "W5133 Multi-State Project"
 # Pages to include in the top navigation bar
 header_pages:
   - index
-  - annual-reports
-  - 2025-agenda
-  - 2024-agenda
-  - 2023-agenda
-  - 2022-agenda
-  - contact
+  - annual-reports.html
+  - 2025-agenda.html
+  - 2024-agenda.html
+  - 2023-agenda.html
+  - 2022-agenda.html
+
 
 # Define custom navigation links
 
