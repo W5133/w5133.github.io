@@ -1,6 +1,6 @@
 ---
-title: "2024 Annual Meeting"
-layout: single
+title: 2024 Annual Meeting
+layout: page
 permalink: /2024-agenda/
 ---
 
