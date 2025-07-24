@@ -6,12 +6,13 @@ permalink: /2026-agenda/
 
 **February 25 - 27, 2026**  
 **[Inn at 500 Capitol](https://innat500.com),<br />** 
-500 S Capitol Blvd, Boise, ID 83702
+500 S Capitol Blvd<br /> 
+Boise, ID 83702<br />
 (208) 227-0500
 
 ---
 ### Abstract Submission
-**[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6)** 
+**[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6)** <br />
 
 https://forms.gle/51mWKHce31DBPWpr6
 
