@@ -54,8 +54,6 @@ Boise, ID 83702<br />
 - **5:00 PM:** Reception (the Inn at 500 Capitol) - Light snacks and Cash bar  
 - **7:00 PM:** Dinner on your own  
 
-
-
 ---
 ### Thursday, February 26, 2026  
 
