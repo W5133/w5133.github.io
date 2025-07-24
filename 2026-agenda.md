@@ -5,9 +5,11 @@ permalink: /2026-agenda/
 ---
 
 **February 25 - 27, 2026**  
-**[Inn at 500 Capitol]((https://innat500.com), Boise, ID**  
+**[Inn at 500 Capitol](https://innat500.com), Boise, ID**  
 
-
+---
+### Abstract Submission
+**[Abstract Submission Form](https://forms.gle/51mWKHce31DBPWpr6)
 ---
 ### Officers  
 - **Lee Parton, President and Workshop Organizer** - Boise State University - `leeparton@boisestate.edu`   
@@ -87,12 +89,12 @@ To Be Announced
 #### Session #6: (10:25 AM - Noon)  
 
 - **12:00 PM:** LUNCH (on your own)
-- 
-#### Session #3:  (1:30 - 3:05 PM)  
+
+#### Session #7:  (1:30 - 3:05 PM)  
 
 - **3:10 PM:** Afternoon BREAK  
 
-#### Session #4:  (3:25 - 5:00 PM) 
+#### Session #8:  (3:25 - 5:00 PM) 
 - **5:00 PM:** Adjourn  
 
 ---  
