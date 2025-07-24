@@ -11,7 +11,7 @@ permalink: /2026-agenda/
 
 ---
 ### Abstract Submission
-[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6)
+**[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6) https://forms.gle/51mWKHce31DBPWpr6**
 
 ---
 ### Officers  
