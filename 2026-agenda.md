@@ -4,8 +4,8 @@ layout: page
 permalink: /2026-agenda/
 ---
 ### W533 2026 Conference Information
-**February 25 - 27, 2026**  
-**[Inn at 500 Capitol](https://innat500.com),<br />** 
+**Dates: February 25 - 27, 2026**  
+**Location: [Inn at 500 Capitol](https://innat500.com),<br />** 
 500 S Capitol Blvd<br /> 
 Boise, ID 83702<br />
 (208) 227-0500
