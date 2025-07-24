@@ -13,8 +13,8 @@ Boise, ID 83702<br />
 ---
 ### Abstract Submission
 **[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6)** <br />
-Abstracts due November 15th, 2026 <br />
-Conference Acceptance Notification December 15th, 2026
+**Abstracts due:** November 15th, 2026 <br />
+**Acceptance Notification:** December 15th, 2026
 
 ---
 ### Officers  
