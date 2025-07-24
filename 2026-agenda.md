@@ -44,13 +44,12 @@ Boise, ID 83702<br />
 ## Registration Rate  
 - **Graduate Students:** $260  
 - **Non-Graduate Students:** $350 
- 
+--- 
 
 ## Meeting Agenda  
 
+## To Be Announced 
 ---
-### To Be Announced 
-
 ### Wednesday, February 25, 2026  
 - **5:00 PM:** Reception (the Inn at 500 Capitol) - Light snacks and Cash bar  
 - **7:00 PM:** Dinner on your own  
