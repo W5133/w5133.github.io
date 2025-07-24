@@ -5,7 +5,7 @@ permalink: /2026-agenda/
 ---
 
 **February 25 - 27, 2026**  
-**[Inn at 500 Capitol](https://innat500.com),** 
+**[Inn at 500 Capitol](https://innat500.com),< br / >** 
 500 S Capitol Blvd, Boise, ID 83702
 (208) 227-0500
 
