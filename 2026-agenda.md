@@ -11,7 +11,7 @@ permalink: /2026-agenda/
 
 ---
 ### Abstract Submission
-**[Abstract Submission Form](https://forms.gle/51mWKHce31DBPWpr6)
+**[Abstract Submission Form](https://forms.gle/51mWKHce31DBPWpr6)**
 ---
 ### Officers  
 - **Lee Parton, President and Workshop Organizer** - Boise State University - `leeparton@boisestate.edu`   
