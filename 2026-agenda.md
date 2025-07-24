@@ -49,7 +49,7 @@ Boise, ID 83702<br />
 ## Meeting Agenda  
 
 ---
-To Be Announced 
+### To Be Announced 
 
 ### Wednesday, February 25, 2026  
 - **5:00 PM:** Reception (the Inn at 500 Capitol) - Light snacks and Cash bar  
