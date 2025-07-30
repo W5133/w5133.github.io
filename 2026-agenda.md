@@ -14,6 +14,12 @@ Boise, ID 83702<br />
 - **Graduate Students:** $260  
 - **Regular Registration:** $350
 
+## Room Booking
+A small number of rooms are available at the GSA Rate. To obtain the U.S. Government per diem room please contact the Inn at 500 sales coordinator (Sophie) at 208.391.2041.<br />
+To book directly using the [W5133 2026 Booking Link](https://be.synxis.com/?adult=1&arrive=2026-02-25&chain=26216&child=0&currency=USD&depart=2026-02-28&group=FIVE0226&hotel=75915&level=hotel&locale=en-US&productcurrency=USD&rooms=1)
+
+
+
 ## Abstract Submission
 **[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6)** <br />
 **Abstracts Due:** November 15th, 2026 <br />
