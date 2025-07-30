@@ -13,13 +13,12 @@ Boise, ID 83702<br />
 ## Registration Rate  
 - **Graduate Students:** $260  
 - **Regular Registration:** $350
----
+
 ## Abstract Submission
 **[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6)** <br />
 **Abstracts Due:** November 15th, 2026 <br />
 **Acceptance Notification:** December 15th, 2026
 
----
 ## Officers  
 - **Lee Parton, President and Workshop Organizer** - Boise State University - `leeparton@boisestate.edu`   
 - **Jude Bayham, President-Elect** - Colorado State University - `Jude.bayham@colostate.edu`
@@ -27,8 +26,6 @@ Boise, ID 83702<br />
 - **Kenneth White, Administrative Advisor** - Utah State University - `ken.white@usu.edu`  
 
 # W5133 Research Objectives  
-
----
 
 ### Objective 1: Evaluate Natural Resource Management Decisions and the Effects of Climate Change  
 - **Task 1-1:** Quantify the Direct and Indirect Impacts of Management Decisions Affecting Agricultural Land, Forests, and Land Use Change  
@@ -47,8 +44,6 @@ Boise, ID 83702<br />
 - **Task 3-2:** Incorporate Nonmarket Valuation into Integrated Assessments of Water, Land, and Climate  
 ---
 
-
----
 # Meeting Agenda  
 
 ## To Be Announced 
