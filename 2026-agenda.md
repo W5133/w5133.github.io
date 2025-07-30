@@ -3,21 +3,24 @@ title: 2026 Annual Meeting
 layout: page
 permalink: /2026-agenda/
 ---
-### W5133 2026 Conference Information
+# W5133 2026 Conference Information
 **Dates: February 25 - 27, 2026**<br />  
 **Location: [Inn at 500 Capitol](https://innat500.com),<br />** 
 500 S Capitol Blvd<br /> 
 Boise, ID 83702<br />
 (208) 227-0500
 
+## Registration Rate  
+- **Graduate Students:** $260  
+- **Regular Registration:** $350
 ---
-### Abstract Submission
+## Abstract Submission
 **[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6)** <br />
 **Abstracts Due:** November 15th, 2026 <br />
 **Acceptance Notification:** December 15th, 2026
 
 ---
-### Officers  
+## Officers  
 - **Lee Parton, President and Workshop Organizer** - Boise State University - `leeparton@boisestate.edu`   
 - **Jude Bayham, President-Elect** - Colorado State University - `Jude.bayham@colostate.edu`
 - **David Roberts, Secretary** - North Dakota State University - `David.C.Roberts@ndsu.edu`  
@@ -44,12 +47,9 @@ Boise, ID 83702<br />
 - **Task 3-2:** Incorporate Nonmarket Valuation into Integrated Assessments of Water, Land, and Climate  
 ---
 
-## Registration Rate  
+
 ---
-- **Graduate Students:** $260  
-- **Regular Registration:** $350
----
-## Meeting Agenda  
+# Meeting Agenda  
 
 ## To Be Announced 
 ---
