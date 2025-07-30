@@ -44,6 +44,7 @@ Boise, ID 83702<br />
 - **Task 3-2:** Incorporate Nonmarket Valuation into Integrated Assessments of Water, Land, and Climate  
 ---
 ## Registration Rate  
+---
 - **Graduate Students:** $260  
 - **Regular Registration:** $350
 ---
