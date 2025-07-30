@@ -43,10 +43,10 @@ Boise, ID 83702<br />
 - **Task 3-1:** Design Decision Support Tools for Managing Natural Resources, Ecosystem Services, and the Impacts of Natural Hazards  
 - **Task 3-2:** Incorporate Nonmarket Valuation into Integrated Assessments of Water, Land, and Climate  
 
-## Registration Rate  
+### Registration Rate  
 - **Graduate Students:** $260  
-- **Non-Graduate Students:** $350 
---- 
+- **Non-Graduate Students:** $350
+
 
 ## Meeting Agenda  
 
