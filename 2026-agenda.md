@@ -23,8 +23,8 @@ To book directly using at the negotiated conference rate [CLICK HERE](https://be
 
 ## Abstract Submission
 **[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6)** <br />
-**Abstracts Due:** November 15th, 2026 <br />
-**Acceptance Notification:** December 15th, 2026
+**Abstracts Due:** November 15th, 2025 <br />
+**Acceptance Notification:** December 15th, 2025
 
 ## Officers  
 - **Lee Parton, President and Workshop Organizer** - Boise State University - `leeparton@boisestate.edu`   
