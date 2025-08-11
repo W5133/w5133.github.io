@@ -44,17 +44,16 @@ Parking available on-site; located near the Idaho Botanical Garden and hiking tr
 
 ### [Idaho Anne Frank Human Rights Memorial](https://www.annefrankmemorial.org/)
 
-A powerful and contemplative outdoor educational park located adjacent to the Boise River Greenbelt, near the Boise Public Library.
+A contemplative riverside memorial dedicated to human rights and social justice, featuring powerful quotes, sculptures, and educational exhibits. It is the only Anne Frank memorial of its kind in the United States.
 
-- **Location**: 770 S 8th St, Boise, ID  
-- **Hours**: Open **year-round from dawn to dusk**, with **free admission** (donations accepted). :contentReference[oaicite:1]{index=1}  
-- **Features**:
-  - **Life-sized bronze statue** of Anne Frank peering from her hiding place  
-  - A **180-foot Quote Wall** inscribed with quotes from human rights leaders and ordinary voices alike  
-  - The **complete text of the Universal Declaration of Human Rights** on permanent public display :contentReference[oaicite:2]{index=2}  
-  - Designated as an **International “Site of Conscience”** reflecting its role as a place for learning, reflection, and civic engagement :contentReference[oaicite:3]{index=3}  
-
-- **Why Visit**: It’s the **only memorial of its kind in the U.S.**, combining art, history, and human rights education in a peaceful setting :contentReference[oaicite:4]{index=4}.
+Location: 770 S 8th St (next to the Boise Public Library and Greenbelt)  
+Hours: Open daily from dawn to dusk  
+Admission: Free  
+Highlights:
+- Life-sized bronze statue of Anne Frank
+- Quote wall featuring human rights voices
+- Full text of the Universal Declaration of Human Rights
+- Recognized as an official "Site of Conscience"
 
 
 ### [The Basque Block](https://www.boisebasqueblock.com/)
