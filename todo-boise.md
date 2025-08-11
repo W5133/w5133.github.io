@@ -22,6 +22,15 @@ Location: 670 Julia Davis Dr
 Hours: 10 AM – 5 PM  
 Admission: $6
 
+### [Freak Alley Gallery](https://www.freakalleygallery.org/)
+
+An ever-changing outdoor mural gallery featuring large-scale street art and graffiti from local and regional artists. It’s one of the largest open-air galleries in the Northwest and a must-see for art lovers and photographers.
+
+Location: Entrance at 210 N 9th St (between Bannock and Idaho Streets)  
+Hours: Open 24/7 outdoors, year-round  
+Admission: Free  
+Tip: Walk through during the day for art-viewing, or at night when the alley is lit up and buzzing with downtown energy. Nearby restaurants and bars make this a great pre-dinner stop.
+
 
 ### [Idaho State Museum](https://history.idaho.gov/museum/)
 
@@ -71,7 +80,7 @@ Tickets: [Available online](https://zooboise.org/tickets/)
 
 ## Great Places to Eat
 
-### 8th Street & The Grove Plaza
+### [8th Street & The Grove Plaza](https://downtownboise.org/go/8th-street-promenade/)
 
 Downtown Boise’s walkable entertainment core — home to dozens of local restaurants, bars, coffee shops, and year-round events. Great for group outings or casual exploring.
 
