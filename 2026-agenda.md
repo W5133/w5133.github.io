@@ -11,9 +11,8 @@ Boise, ID 83702<br />
 (208) 227-0500
 
 ## Abstract Submission
-**[Abstract Submission Link](https://forms.gle/51mWKHce31DBPWpr6)** <br />
-**Abstracts Due:** October 31st, 2025 <br />
-**Acceptance Notification:** November 30th, 2025
+- **Abstracts Due:** October 31st, 2025 
+- **Acceptance Notification:** November 30th, 2025
 
  <div style="
   overflow: auto;
@@ -45,7 +44,7 @@ Boise, ID 83702<br />
 ## Registration Information  
 - **Graduate Students:** $260  **(Use code STUDENT at checkout)** 
 - **Regular Registration:** $350
-- **Registration Deadline: January 15th**
+- **Registration Deadline: December 31st**
 
   <div style="
   overflow: auto;
