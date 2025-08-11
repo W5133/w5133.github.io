@@ -65,7 +65,7 @@ Boise, ID 83702<br />
     text-align: center;
     box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
     border-radius: 6px;
-  ">Graduate Student Registration</a></div></div>
+  ">Student Registration</a></div></div>
 
 
 ## Room Booking
