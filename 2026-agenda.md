@@ -39,7 +39,7 @@ Boise, ID 83702<br />
     text-align: center;
     box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
     border-radius: 6px;
-  ">Pay Here</a></div></div>
+  ">Register & Pay</a></div></div>
 
 
 ## Room Booking
