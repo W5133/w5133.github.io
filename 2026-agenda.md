@@ -73,7 +73,6 @@ Boise, ID 83702<br />
     border-radius: 6px;
   ">Register & Pay</a></div></div>
 
-
 ## Room Booking
 - A negitioated room rate of $215/night is available for the first 30 reservations.
 - To obtain the U.S. Government per diem rate please contact the Inn at 500 sales coordinator (Sophie) at (208)391-2041. (Limited Supply)
@@ -105,10 +104,6 @@ Boise, ID 83702<br />
     box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
     border-radius: 6px;
   ">Book My Room</a></div></div>
-
-
-
-
 
 ## Officers  
 - **Lee Parton, President and Workshop Organizer** - Boise State University - `leeparton@boisestate.edu`   
