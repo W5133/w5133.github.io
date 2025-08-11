@@ -44,7 +44,7 @@ Boise, ID 83702<br />
 ## Registration Information  
 - **Graduate Students:** $260  **(Use code STUDENT at checkout)** 
 - **Regular Registration:** $350
-- **Registration Deadline: December 31st**
+- **Registration Deadline:** December 31st
 
   <div style="
   overflow: auto;
