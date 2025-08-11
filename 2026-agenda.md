@@ -8,12 +8,12 @@ permalink: /2026-agenda/
 # Location
 
 ## [Inn at 500 Capitol](https://innat500.com) 
----
+
 500 S Capitol Blvd<br />
 Boise, ID 83702<br />
 (208) 227-0500<br />
 February 25 - 27, 2026  
----
+
 ### [Things to do in Boise](todo-boise.md) 
 
 ## Abstract Submission
