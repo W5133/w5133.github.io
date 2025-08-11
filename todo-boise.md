@@ -167,7 +167,7 @@ Location: 3408 W Chinden Blvd
 ### [Boise River Greenbelt](https://www.cityofboise.org/departments/parks-and-recreation/parks/boise-greenbelt/)
 Paved walking and biking trail that winds through downtown along the river.
 
-### [Camel’s Back Park & Hyde Park](https://www.cityofboise.org/parks-and-rec/parks/camels-back-park/)
+### [Camel’s Back Park & Hyde Park](https://totallyboise.com/about-boise/local-stories/articleid/70/the-perfect-day-in-hyde-park)
 Views of the foothills plus a charming neighborhood with coffee, shopping, and dining.
 
 ### [Bogus Basin Mountain Recreation Area](https://bogusbasin.org/)
