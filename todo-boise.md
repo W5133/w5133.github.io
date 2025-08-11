@@ -80,6 +80,15 @@ Tickets: [Available online](https://zooboise.org/tickets/)
 
 ## Great Places to Eat
 
+### [Goldy’s Breakfast Bistro](https://www.goldysbreakfastbistro.com/)
+
+Boise’s most beloved breakfast spot, known for scratch-made classics like eggs benedict, crispy hash browns, and house-made hollandaise. Small and cozy — get there early or expect a wait (worth it).
+
+Location: 108 S Capitol Blvd (just off the Basque Block)  
+Hours: 7 AM – 2 PM daily  
+Tip: Order the “create your own breakfast” or a mimosa while you wait. Arrive early on weekends or use the Nowait app to check your place in line.
+
+
 ### [8th Street & The Grove Plaza](https://downtownboise.org/go/8th-street-promenade/)
 
 Downtown Boise’s walkable entertainment core — home to dozens of local restaurants, bars, coffee shops, and year-round events. Great for group outings or casual exploring.
