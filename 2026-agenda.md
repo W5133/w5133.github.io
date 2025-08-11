@@ -43,9 +43,9 @@ Boise, ID 83702<br />
 
 
 ## Room Booking
---A negitioated room rate of $215/night is available for the first 30 reservations.<br />
---A small number of rooms are available at the GSA Rate. To obtain the U.S. Government per diem room please contact the Inn at 500 sales coordinator (Sophie) at (208)391-2041.<br />
---To book directly using at the negotiated conference rate [CLICK HERE](https://be.synxis.com/?adult=1&arrive=2026-02-25&chain=26216&child=0&currency=USD&depart=2026-02-28&group=FIVE0226&hotel=75915&level=hotel&locale=en-US&productcurrency=USD&rooms=1).
+- A negitioated room rate of $215/night is available for the first 30 reservations.
+- To obtain the U.S. Government per diem room please contact the Inn at 500 sales coordinator (Sophie) at (208)391-2041.
+- To book directly using at the negotiated conference rate [CLICK HERE](https://be.synxis.com/?adult=1&arrive=2026-02-25&chain=26216&child=0&currency=USD&depart=2026-02-28&group=FIVE0226&hotel=75915&level=hotel&locale=en-US&productcurrency=USD&rooms=1).
   <div style="
   overflow: auto;
   display: flex;
@@ -71,7 +71,7 @@ Boise, ID 83702<br />
     text-align: center;
     box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
     border-radius: 6px;
-  ">Book a Room</a></div></div>
+  ">Book My Room</a></div></div>
 
 
 
