@@ -141,8 +141,8 @@ February 25 - 27, 2026
 ## To Be Announced 
 ---
 ### Wednesday, February 25, 2026  
-- **5:00 PM:** Reception (the Inn at 500 Capitol) - Light snacks and Cash bar  
-- **7:00 PM:** Dinner on your own  
+- **5:00 PM:** Reception (the Inn at 500 Capitol) - Hors d'Oeuvres with cash bar 
+- **7:00 PM:** Dinner on your own (see "Things to do in Boise" for restaurant info) 
 
 ---
 ### Thursday, February 26, 2026  
