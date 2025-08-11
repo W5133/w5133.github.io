@@ -28,6 +28,26 @@ Location: 610 Julia Davis Dr
 Hours: 10 AM – 5 PM  
 Admission: $10
 
+### [Idaho State Museum](https://history.idaho.gov/museum/)
+
+Interactive exhibits covering Idaho’s natural environments, tribal nations, and pioneer history. Located in Julia Davis Park and great for families or anyone curious about the state.
+
+Location: 610 Julia Davis Dr  
+Hours: 10 AM – 5 PM (Closed Mondays)  
+Admission: $10 adults | $8 seniors | $6 students | Free for children under 5  
+Tickets: [Purchase online](https://store.history.idaho.gov/Events.aspx)
+
+### [Old Idaho Penitentiary](https://history.idaho.gov/oldpen/)
+
+One of Boise’s most unique attractions — tour historic prison cell blocks, solitary confinement, and gallows. Includes exhibits on prison life and Idaho’s criminal history.
+
+Location: 2445 Old Penitentiary Rd  
+Hours: 12 PM – 5 PM daily  
+Admission: $8 adults | $6 seniors & military | $5 youth (6–17)  
+Tickets: [Reserve online](https://store.history.idaho.gov/Events.aspx) or walk up  
+Parking available on-site; located near the Idaho Botanical Garden and hiking trails.
+
+
 ### [The Basque Block](https://www.boisebasqueblock.com/)
 Explore Boise’s Basque heritage with food, wine, museums, and music.  
 Don’t miss [Bar Gernika](https://www.bargernika.com/) for croquetas and cider!
