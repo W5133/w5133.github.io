@@ -75,7 +75,7 @@ Boise, ID 83702<br />
 
 ## Room Booking
 - A negitioated room rate of $215/night is available for the first 30 reservations.
-- To obtain the U.S. Government per diem rate please contact the Inn at 500 sales coordinator (Sophie) at (208)391-2041. (Limited Supply)
+- To obtain the GSA per diem rate please contact the Inn at 500 sales coordinator (Sophie) at (208)391-2041. (Limited Supply)
 - To book directly use the link below.
 
   <div style="
