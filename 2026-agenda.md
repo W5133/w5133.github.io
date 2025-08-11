@@ -51,6 +51,7 @@ February 25 - 27, 2026
 - **Graduate Students:** $260  **(Use code STUDENT at checkout)** 
 - **Regular Registration:** $350
 - **Registration Deadline:** December 31st
+- Please indicate if you will participate in the Dinner Scramble.
 
   <div style="
   overflow: auto;
