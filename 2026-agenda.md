@@ -46,6 +46,32 @@ Boise, ID 83702<br />
 A negitioated room rate of $215/night is available for the first 30 reservations.<br />
 A small number of rooms are available at the GSA Rate. To obtain the U.S. Government per diem room please contact the Inn at 500 sales coordinator (Sophie) at 208.391.2041.<br />
 To book directly using at the negotiated conference rate [CLICK HERE](https://be.synxis.com/?adult=1&arrive=2026-02-25&chain=26216&child=0&currency=USD&depart=2026-02-28&group=FIVE0226&hotel=75915&level=hotel&locale=en-US&productcurrency=USD&rooms=1).
+  <div style="
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 259px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+  ">
+  <div style="padding: 20px;">
+    <a target="_blank" href="https://be.synxis.com/?adult=1&arrive=2026-02-25&chain=26216&child=0&currency=USD&depart=2026-02-28&group=FIVE0226&hotel=75915&level=hotel&locale=en-US&productcurrency=USD&rooms=1" style="
+    display: inline-block;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    color: #ffffff;
+    min-width: 212px;
+    background-color: #0366d6;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+    border-radius: 6px;
+  ">Room Booking</a></div></div>
 
 
 
