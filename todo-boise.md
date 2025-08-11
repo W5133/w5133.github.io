@@ -212,12 +212,6 @@ Follow [Facebook](https://www.facebook.com/pengillyssaloon/) for nightly lineups
 Every Thursday from 5–8 p.m., enjoy free, all-ages live performances in this vibrant food hall featuring diverse local musicians paired with food and drinks.  
 Location: 816 W Bannock St, Boise, ID
 
-### [The Quack — Local Music Calendar](https://www.quackboise.com/)
-A go-to resource for weekly and one-off music events around Boise—updated frequently with both local and touring artist listings. Great for discovering what's happening during your stay.
-
-### [Bandsintown & Songkick – Concert Listings This Week](https://www.bandsintown.com/c/boise-id)  
-Check for real-time updates on live shows during your visit—from intimate local gigs to larger venue concerts.
-
 ---
 
 ## Boise State University Attractions
