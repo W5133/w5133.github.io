@@ -9,7 +9,7 @@ permalink: /2026-agenda/
 500 S Capitol Blvd<br /> 
 Boise, ID 83702<br />
 (208) 227-0500
-
+---
 ##[Things to do in Boise](/todo-Boise) 
 
 ## Abstract Submission
