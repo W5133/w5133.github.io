@@ -22,7 +22,7 @@ Location: 670 Julia Davis Dr
 Hours: 10 AM – 5 PM  
 Admission: $6
 
-### [Freak Alley Gallery](https://www.freakalleygallery.org/)
+### [Freak Alley Gallery](https://www.freakalleyboise.com)
 
 An ever-changing outdoor mural gallery featuring large-scale street art and graffiti from local and regional artists. It’s one of the largest open-air galleries in the Northwest and a must-see for art lovers and photographers.
 
