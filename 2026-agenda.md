@@ -35,7 +35,7 @@ Boise, ID 83702<br />
     height: 48px;
     color: #ffffff;
     min-width: 212px;
-    background-color: #006aff;
+    background-color: #0366d6;
     text-align: center;
     box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
     border-radius: 6px;
@@ -61,7 +61,7 @@ Boise, ID 83702<br />
     height: 48px;
     color: #ffffff;
     min-width: 212px;
-    background-color: #006aff;
+    background-color: #0366d6;
     text-align: center;
     box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
     border-radius: 6px;
