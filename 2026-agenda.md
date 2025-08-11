@@ -7,8 +7,8 @@ permalink: /2026-agenda/
 
 # Location
 
-### [Inn at 500 Capitol](https://innat500.com) 
-
+## [Inn at 500 Capitol](https://innat500.com) 
+---
 500 S Capitol Blvd<br />
 Boise, ID 83702<br />
 (208) 227-0500<br />
