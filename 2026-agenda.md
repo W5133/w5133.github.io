@@ -62,22 +62,22 @@ To book directly using at the negotiated conference rate [CLICK HERE](https://be
 
 # W5133 Research Objectives  
 
-### Objective 1: Evaluate Natural Resource Management Decisions and the Effects of Climate Change  
+## Objective 1: Evaluate Natural Resource Management Decisions and the Effects of Climate Change  
 - **Task 1-1:** Quantify the Direct and Indirect Impacts of Management Decisions Affecting Agricultural Land, Forests, and Land Use Change  
 - **Task 1-2:** Assess How Public and Private Actions Impact Water Quality and Scarcity  
 - **Task 1-3:** Measure How Public and Private Actions Impact Outdoor Recreation  
 - **Task 1-4:** Quantify the Economic Impacts of Natural Hazards  
 - **Task 1-5:** Develop and Evaluate Strategies for Climate Change Mitigation and Adaptation  
 
-### Objective 2: Advance Economic Valuation Methods and Uses  
+## Objective 2: Advance Economic Valuation Methods and Uses  
 - **Task 2-1:** Develop Innovative Stated and Revealed Preference Research Methods  
 - **Task 2-2:** Assess Advances in Benefit Transfer Methods  
 - **Task 2-3:** Evaluate Environmental Justice and Distributional Impacts in Nonmarket Valuation  
 
-### Objective 3: Develop Solutions for Integration of Economic Valuation with Policy and Decision-Making  
+## Objective 3: Develop Solutions for Integration of Economic Valuation with Policy and Decision-Making  
 - **Task 3-1:** Design Decision Support Tools for Managing Natural Resources, Ecosystem Services, and the Impacts of Natural Hazards  
 - **Task 3-2:** Incorporate Nonmarket Valuation into Integrated Assessments of Water, Land, and Climate  
----
+
 
 # Meeting Agenda  
 
