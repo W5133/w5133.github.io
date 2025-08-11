@@ -10,8 +10,8 @@ permalink: /2026-agenda/
 Boise, ID 83702<br />
 (208) 227-0500
 
-## Registration Rate  
-- **Graduate Students:** $260  **Use code STUDENT at the "Pay Here" link below**
+## Registration Information  
+- **Graduate Students:** $260  **Use code STUDENT** at checkout
 - **Regular Registration:** $350
 
   <div style="
