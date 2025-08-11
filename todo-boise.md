@@ -71,6 +71,20 @@ Tickets: [Available online](https://zooboise.org/tickets/)
 
 ## Great Places to Eat
 
+### 8th Street & The Grove Plaza
+
+Downtown Boise’s walkable entertainment core — home to dozens of local restaurants, bars, coffee shops, and year-round events. Great for group outings or casual exploring.
+
+Location: Centered around 8th St between Bannock St and Main St; The Grove Plaza is at 827 W Main St  
+What to Do:
+- Stroll along **8th Street** for outdoor dining, breweries, and people-watching
+- Grab a meal at favorites like [Fork](https://www.boisefork.com/), [Bittercreek Alehouse](https://bittercreekalehouse.com/), or [Diablo & Sons](https://diabloandsons.com/)
+- Visit **The Grove Plaza** for local events, food trucks, and public art
+- Access to **Boise Centre**, **Zions Bank building**, and **live music pop-ups**
+
+Tip: Most hotels and venues are within a 5-minute walk, making this a convenient meeting spot for attendees.
+
+
 ### [Fork](https://www.boisefork.com/)
 Farm-to-table American comfort food in a modern space.  
 Location: 199 N 8th St  
