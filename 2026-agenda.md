@@ -14,7 +14,7 @@ Boise, ID 83702<br />
 (208) 227-0500<br />
 February 25 - 27, 2026  
 
-### [Things to do in Boise](todo-boise.md) 
+## [Things to do in Boise](todo-boise.md) 
 
 ## Abstract Submission
 - **Abstracts Due:** October 31st, 2025
