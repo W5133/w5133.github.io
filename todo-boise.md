@@ -22,11 +22,6 @@ Location: 670 Julia Davis Dr
 Hours: 10 AM – 5 PM  
 Admission: $6
 
-### [Idaho State Museum](https://history.idaho.gov/museum/)
-Interactive exhibits on Idaho’s environment, Indigenous heritage, and state history.  
-Location: 610 Julia Davis Dr  
-Hours: 10 AM – 5 PM  
-Admission: $10
 
 ### [Idaho State Museum](https://history.idaho.gov/museum/)
 
@@ -46,6 +41,20 @@ Hours: 12 PM – 5 PM daily
 Admission: $8 adults | $6 seniors & military | $5 youth (6–17)  
 Tickets: [Reserve online](https://store.history.idaho.gov/Events.aspx) or walk up  
 Parking available on-site; located near the Idaho Botanical Garden and hiking trails.
+
+### [Idaho Anne Frank Human Rights Memorial](https://www.annefrankmemorial.org/)
+
+A powerful and contemplative outdoor educational park located adjacent to the Boise River Greenbelt, near the Boise Public Library.
+
+- **Location**: 770 S 8th St, Boise, ID  
+- **Hours**: Open **year-round from dawn to dusk**, with **free admission** (donations accepted). :contentReference[oaicite:1]{index=1}  
+- **Features**:
+  - **Life-sized bronze statue** of Anne Frank peering from her hiding place  
+  - A **180-foot Quote Wall** inscribed with quotes from human rights leaders and ordinary voices alike  
+  - The **complete text of the Universal Declaration of Human Rights** on permanent public display :contentReference[oaicite:2]{index=2}  
+  - Designated as an **International “Site of Conscience”** reflecting its role as a place for learning, reflection, and civic engagement :contentReference[oaicite:3]{index=3}  
+
+- **Why Visit**: It’s the **only memorial of its kind in the U.S.**, combining art, history, and human rights education in a peaceful setting :contentReference[oaicite:4]{index=4}.
 
 
 ### [The Basque Block](https://www.boisebasqueblock.com/)
