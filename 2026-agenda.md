@@ -5,7 +5,7 @@ permalink: /2026-agenda/
 ---
 # W5133 2026 Conference Information
 
-##Location
+## Location
 ## [Inn at 500 Capitol](https://innat500.com) 
 500 S Capitol Blvd<br /> 
 Boise, ID 83702<br />
