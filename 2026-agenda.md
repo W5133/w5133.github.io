@@ -103,7 +103,7 @@ Boise, ID 83702<br />
     text-align: center;
     box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
     border-radius: 6px;
-  ">Book My Room</a></div></div>
+  ">Room Booking</a></div></div>
 
 ## Officers  
 - **Lee Parton, President and Workshop Organizer** - Boise State University - `leeparton@boisestate.edu`   
