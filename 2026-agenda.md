@@ -39,9 +39,7 @@ Boise, ID 83702<br />
     text-align: center;
     box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
     border-radius: 6px;
-  ">Faculty/Industry Registration</a>
-  </div>
-</div>
+  ">Faculty/Industry Registration</a></div></div>
 
 ## Room Booking
 A negitioated room rate of $215/night is available for the first 30 reservations.<br />
