@@ -140,6 +140,7 @@ February 25 - 27, 2026
 # Meeting Agenda  
 
 ## To Be Announced 
+- **All events held in the Capitol Room**
 ---
 ### Wednesday, February 25, 2026  
 - **5:00 PM:** Reception (the Inn at 500 Capitol) - Hors d'Oeuvres with cash bar 
@@ -171,7 +172,7 @@ February 25 - 27, 2026
 
 ---
 ### Friday, February 27, 2026  
-*All sessions will take place in Juniper Hall, Hotel Vermont.*  
+
 - **8:00 AM:** Breakfast  
 
 #### Session #5:  (8:30 - 10:05 AM)  
