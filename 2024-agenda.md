@@ -1,6 +1,7 @@
 ---
 title: 2024 Annual Meeting
 layout: page
+exclude_from_nav: true
 permalink: /2024-agenda/
 ---
 
