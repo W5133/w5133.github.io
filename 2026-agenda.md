@@ -140,7 +140,7 @@ February 25 - 27, 2026
 # Meeting Agenda  
 
 ## To Be Announced 
-- **All events held in the Capitol Room**
+- **All sessions take place in the Capitol Room**
 ---
 ### Wednesday, February 25, 2026  
 - **5:00 PM:** Reception (the Inn at 500 Capitol) - Hors d'Oeuvres with cash bar 
