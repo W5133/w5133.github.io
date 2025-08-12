@@ -13,7 +13,7 @@ The core mission of the W5133 research group (and all prior iterations) has been
 ## Upcoming Meetings
 
 - **Boise, ID - February 25 -  February 27, 2026**
-  - [2026 Conference Info](/2026-agenda) 
+  - [2026 Meeting Info](/2026-agenda) 
 
 ## Past Meetings and Programs
 
