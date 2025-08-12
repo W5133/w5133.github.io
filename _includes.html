@@ -1,0 +1,27 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      {{ site.title | escape }}
+    </a>
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path fill="#424242"
+              d="M1,1 L17,1 L17,3 L1,3 L1,1 Z M1,6 L17,6 L17,8 L1,8 L1,6 Z M1,11 L17,11 L17,13 L1,13 L1,11 Z" />
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+        <a class="page-link" href="{{ "/" | relative_url }}">Home</a>
+        <a class="page-link" href="{{ "/2026-agenda/" | relative_url }}">2026 Agenda</a>
+        <a class="page-link" href="{{ "/things-to-do/" | relative_url }}">Things to Do</a>
+        <a class="page-link" href="{{ "/past-meetings/" | relative_url }}">Past Meetings</a>
+        <!-- Add or remove links as needed -->
+      </div>
+    </nav>
+  </div>
+</header>
