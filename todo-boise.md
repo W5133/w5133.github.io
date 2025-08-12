@@ -227,9 +227,6 @@ Home to Broadway shows, orchestras, and local productions.
 Check the [calendar](https://www.morrisoncenter.com/events) to see if anything is playing during your visit.  
 Location: 2201 W Cesar Chavez Ln
 
-### [Keith and Catherine Stein Band Hall](https://www.boisestate.edu/music/)
-If you're a music lover, check the [Department of Music events](https://www.boisestate.edu/music/upcoming-events/) for recitals or ensemble performances.
-
 ### [Blue Turf at Albertsons Stadium](https://broncosports.com/sports/2018/5/18/facilities-albertsons-stadium-html.aspx)
 See Boise State’s iconic blue football field — a unique photo opportunity.  
 Location: 1400 Bronco Ln  
@@ -239,9 +236,6 @@ Tip: You can view the field from the Allen Noble Hall of Fame Gallery on non-gam
 Modern building showcasing student and faculty art exhibitions, right next to the Greenbelt.  
 Location: 1110 S Capitol Blvd  
 Free and open to the public during school hours.
-
-### [Boise River Greenbelt – Campus Section](https://www.cityofboise.org/departments/parks-and-recreation/parks/boise-greenbelt/)
-The Greenbelt runs directly through campus with scenic walking and biking paths.
 
 
 ---
