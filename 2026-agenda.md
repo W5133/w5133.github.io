@@ -1,7 +1,7 @@
 ---
 title: 2026 Annual Meeting
 layout: page
-permalink: /past-meetings/2026-agenda/
+permalink: /2026-agenda/
 ---
 
 # Dates: February 25th - February 27th 2026
