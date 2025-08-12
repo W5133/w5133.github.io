@@ -1,3 +1,10 @@
+---
+layout: page
+title: Test Page
+exclude_from_nav: true
+permalink: /todo-boise/
+---
+
 # Things to Do in Boise (Feb 25–27, 2026)
 
 Whether you're arriving early or staying a few days after the conference, Boise offers plenty of winter-friendly activities, food, drinks, and local culture.
