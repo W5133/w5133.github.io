@@ -1,6 +1,6 @@
 ---
 title: 2022 Annual Meeting
-layout: page
+layout: base
 exclude_from_nav: true
 ---
 
