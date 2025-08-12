@@ -3,8 +3,8 @@ title: 2026 Annual Meeting
 layout: page
 permalink: /2026-agenda/
 ---
-# W5133 2026 Conference Information
-## Dates: February 25th - February 27th
+# W5133 2026 Meeting Information
+## Dates: February 25th - February 27th 2026
 # Location
 
 ## [Inn at 500 Capitol](https://innat500.com) 
