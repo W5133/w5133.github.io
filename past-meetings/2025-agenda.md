@@ -2,7 +2,7 @@
 title: 2025 Annual Meeting
 layout: page
 exclude_from_nav: true
-permalink: /2025-agenda/
+permalink: /past-meetings/2025-agenda/
 ---
 
 **Mar 5-7, 2025**  
