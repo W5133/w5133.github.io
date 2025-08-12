@@ -18,13 +18,13 @@ The core mission of the W5133 research group (and all prior iterations) has been
 ## Past Meetings and Programs
 
 - **Burlington, VT - March 5 - March 7, 2025**
-  - [2025 Agenda](/past-meetings/2025-agenda)  
+  - [2025 Agenda](/past-meetings/2025-agenda/)  
 - **Fort Collins, CO - February 28 - March 1, 2024**
-  - [2024 Agenda](/past-meetings/2024-agenda)   
+  - [2024 Agenda](/past-meetings/2024-agenda/)   
 - **New Orleans, LA - March 1 - March 3, 2023**
-  - [2023 Agenda](/past-meetings/2023-agenda)   
+  - [2023 Agenda](/past-meetings/2023-agenda/)   
 - **Hood River, OR - April 25 - April 27, 2022** (Recharter Year)
-  - [2022 Agenda](/past-meetings/2022-agenda)
+  - [2022 Agenda](/past-meetings/2022-agenda/)
 
 
 ## Annual Reports
