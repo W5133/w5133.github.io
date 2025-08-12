@@ -5,9 +5,10 @@ plugins:
   - jekyll-include-cache
 
 minima:
-  nav_pages:
+  header_pages:
     - index.md
     - 2026-agenda.md
+    - things-to-do.md 
     
 title: "W5133 Multi-State Project"
 
