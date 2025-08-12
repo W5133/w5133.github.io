@@ -13,7 +13,3 @@ minima:
     - 2026-agenda.md
     - things-to-do.md
 
-exclude:
-  - past-meetings/
-  - drafts/
-  - README.md
