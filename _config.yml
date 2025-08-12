@@ -4,6 +4,10 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
+
+      nav_pages:
+        - index.md
+        - 2026-agenda.md
 title: "W5133 Multi-State Project"
 
 
