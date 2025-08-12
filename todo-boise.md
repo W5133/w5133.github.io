@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Test Page
+title: Things to do in Boise
 exclude_from_nav: true
 permalink: /todo-boise/
 ---
