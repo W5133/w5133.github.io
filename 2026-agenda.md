@@ -17,8 +17,8 @@ February 25 - 27, 2026
 ## [Things to do in Boise](todo-boise.md) 
 
 ## Abstract Submission
-- **Abstracts Due:** October 31st, 2025
-- **Acceptance Notification:** November 30th, 2025
+- **Abstracts Due:** November 15th, 2025
+- **Acceptance Notification:** December 15th, 2025
 
   <div style="
     overflow: auto;
@@ -50,8 +50,8 @@ February 25 - 27, 2026
 ## Registration Information  
 - **Graduate Students:** $260  **(Use code STUDENT at checkout)** 
 - **Regular Registration:** $350
-- **Registration Deadline:** December 31st
-- Please indicate if you will participate in the Thursday night Dinner Scramble.
+- **Registration Deadline:** January 15th, 2026
+- Please indicate if you will participate in the Thursday night Dinner Scramble at checkout.
 
   <div style="
   overflow: auto;
