@@ -5,18 +5,18 @@ plugins:
   - jekyll-include-cache
 
 title: "W5133 Multi-State Project"
-description: "Agenda and information for the 2026 conference in Boise, Idaho"
 
 minima:
   header_pages:
     - index.md
     - 2026-agenda.md
     - things-to-do.md
+
 exclude:
-  header_pages:
     - 2020-agenda.md
     - 2022-agenda.md
     - 2023-agenda.md
     - 2024-agenda.md
     - 2025-agenda.md
+
 
