@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Boise
+title: Boise Activities
 permalink: /todo-boise/
 ---
 
@@ -121,6 +121,39 @@ Location: 501 W Broad St
 ### [Bar Gernika](https://www.bargernika.com/)
 Boise’s iconic Basque pub — cozy and casual with amazing lamb grinders.  
 Location: 202 S Capitol Blvd
+
+### [Bittercreek Alehouse](https://bittercreekalehouse.com/)
+
+A downtown Boise staple offering elevated pub fare, craft beer, and local ingredients. Known for its seasonal menu, Idaho-grown meats, and great vegetarian options. Cozy yet lively.
+Location: 246 N 8th St  
+Hours: 11 AM – 11 PM daily
+
+
+
+### [Red Feather Lounge](https://redfeatherlounge.com/)
+
+Next door to Bittercreek (same ownership), Red Feather offers a more upscale and intimate dining experience. Features locally sourced ingredients, a curated cocktail menu, and inventive small plates.
+Location: 246 N 8th St  
+Hours: 5 PM – 10 PM daily
+
+### [Eureka! Boise](https://eurekarestaurantgroup.com/locations/boise/)
+
+Modern American comfort food with an energetic atmosphere — think burgers, bourbon, and local beer. Good for casual group dining or late-night drinks.
+Location: 800 W Idaho St  
+Hours: 11 AM – 11 PM
+
+### [Diablo & Sons Saloon](https://diabloandsons.com/)
+
+Rustic-chic Southwestern-inspired gastropub with house-smoked meats, craft cocktails, and a fun, industrial vibe. Great tacos, whiskey list, and large-group friendly.
+Location: 246 N 8th St (next to Fork)  
+Hours: 11 AM – 10 PM
+
+### [The Lemon Tree Co.](https://lemontreeboise.com/)
+
+A creative and highly rated sandwich and salad shop with globally inspired flavors. Popular for lunch and lighter fare — vegan and gluten-free friendly.
+Location: 224 N 10th St  
+Hours: 11 AM – 7 PM (Mon–Sat), closed Sunday
+
 
 ---
 
