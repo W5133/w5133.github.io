@@ -1,5 +1,8 @@
-remote_theme: jekyll/minima
 
+remote_theme: jekyll/minima@v2.5.1 # Specifies the repository and version
+plugins:
+  - jekyll-remote-theme
+  
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
