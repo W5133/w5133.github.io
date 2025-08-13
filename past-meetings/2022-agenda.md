@@ -1,7 +1,6 @@
 ---
 title: 2022 Annual Meeting
-layout: base
-exclude_from_nav: true
+layout: blog
 permalink: /past-meetings/2022-agenda/
 ---
 
