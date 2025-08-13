@@ -8,7 +8,7 @@ plugins:
   - jekyll-include-cache
   
 header_pages:
-  - /2026-agenda.md
+  - 2026-agenda.md
 
 title: "W5133 Multi-State Project"
 
