@@ -1,6 +1,5 @@
 ---
-layout: blog
-permalink: /past-meetings/2024-agenda/
+layout: page
 ---
 
 # 2024 Annual Meeting
