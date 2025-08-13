@@ -8,7 +8,9 @@ plugins:
   - jekyll-include-cache
   
 header_pages:
+  - index.md
   - 2026-agenda.md
+  - todo-boise.md
 
 title: "W5133 Multi-State Project"
 
