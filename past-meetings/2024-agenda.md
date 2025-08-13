@@ -1,10 +1,8 @@
 ---
-title: 2024 Annual Meeting
 layout: page
-exclude_from_nav: true
 permalink: /past-meetings/2024-agenda/
 ---
-
+# 2024 Annual Meeting
 **Feb 28-Mar 1, 2024**  
 **The Elizabeth Hotel, Fort Collins, CO**
 
