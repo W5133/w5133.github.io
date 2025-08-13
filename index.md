@@ -29,5 +29,5 @@ The core mission of the W5133 research group (and all prior iterations) has been
 
 ## Annual Reports
 
-Access our [annual reports](/annual-reports) to see our yearly progress and achievements.
+[CLICK HERE](https://nimss.org/projects/view/SAES/18858) to access annual reports for the W5133 Multi-State Working Group.
 
