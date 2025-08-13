@@ -7,8 +7,10 @@ plugins:
 title: "W5133 Multi-State Project"
 
 
-include:
-  - assets/css/custom.css
+header_pages:
+  - 2026-agenda.md
+  - annual-reports.md
+  - todo-boise.md
 
 # Trigger rebuild
 
