@@ -2,6 +2,7 @@
 title: 2022 Annual Meeting
 layout: base
 exclude_from_nav: true
+permalink: /past-meetings/2022-agenda/
 ---
 
 **April 25-27, 2022**  
