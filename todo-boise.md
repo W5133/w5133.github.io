@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About Boise
-exclude_from_nav: true
 permalink: /todo-boise/
 ---
 
