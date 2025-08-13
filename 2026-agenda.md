@@ -13,8 +13,8 @@ permalink: /2026-agenda/
 Boise, ID 83702<br />
 (208) 227-0500<br />
 February 25 - 27, 2026  
+
 ---
-## [Things to do in Boise](todo-boise.md) 
 
 ## Abstract Submission
 - **Abstracts Due:** November 15th, 2025
@@ -46,6 +46,8 @@ February 25 - 27, 2026
       box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
       border-radius: 6px;
     ">Submit Abstract</a></div></div>
+
+---
 
 ## Registration Information  
 - **Graduate Students:** $260  **(Use code STUDENT at checkout)** 
@@ -80,6 +82,8 @@ February 25 - 27, 2026
     border-radius: 6px;
   ">Register & Pay</a></div></div>
 
+---
+
 ## Room Booking
 - A negitioated room rate of $215/night is available for the first 30 reservations.
 - To obtain the GSA per diem rate please contact the Inn at 500 sales coordinator (Sophie) at (208)391-2041. (Limited Supply)
@@ -112,11 +116,15 @@ February 25 - 27, 2026
     border-radius: 6px;
   ">Room Booking</a></div></div>
 
+---
+
 ## Officers  
 - **Lee Parton, President and Workshop Organizer** - Boise State University - `leeparton@boisestate.edu`   
 - **Jude Bayham, President-Elect** - Colorado State University - `Jude.bayham@colostate.edu`
 - **David Roberts, Secretary** - North Dakota State University - `David.C.Roberts@ndsu.edu`  
 - **Kenneth White, Administrative Advisor** - Utah State University - `ken.white@usu.edu`  
+
+---
 
 # W5133 Research Objectives  
 
@@ -136,17 +144,21 @@ February 25 - 27, 2026
 - **Task 3-1:** Design Decision Support Tools for Managing Natural Resources, Ecosystem Services, and the Impacts of Natural Hazards  
 - **Task 3-2:** Incorporate Nonmarket Valuation into Integrated Assessments of Water, Land, and Climate  
 
+---
 
 # Meeting Agenda  
 
 ## To Be Announced 
 - **All sessions take place in the Capitol Room**
+  
 ---
+
 ### Wednesday, February 25, 2026  
 - **5:00 PM:** Reception (the Inn at 500 Capitol) - Hors d'Oeuvres with cash bar 
 - **7:00 PM:** Dinner on your own (see "Things to do in Boise" for restaurant info) 
 
 ---
+
 ### Thursday, February 26, 2026  
 
 - **7:45 AM:** Registration and Breakfast  
@@ -171,6 +183,7 @@ February 25 - 27, 2026
 - **6:00 PM:** W5133 Dinner Scramble
 
 ---
+
 ### Friday, February 27, 2026  
 
 - **8:00 AM:** Breakfast  
@@ -191,6 +204,7 @@ February 25 - 27, 2026
 - **5:00 PM:** Adjourn  
 
 ---  
+
 This schedule is tentative and subject to change. Please check for updates.  
 
 
