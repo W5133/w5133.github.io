@@ -29,6 +29,11 @@ Members of the W5133 Multi-State Research Project organize an annual meeting whe
 - **Hood River, OR - April 25 - April 27, 2022** (Recharter Year)
   - [2022 Agenda](/past-meetings/2022-agenda/)
 
+## Current Officers  
+- **Lee Parton, President and Workshop Organizer** - Boise State University - `leeparton@boisestate.edu`   
+- **Jude Bayham, President-Elect** - Colorado State University - `Jude.bayham@colostate.edu`
+- **David Roberts, Secretary** - North Dakota State University - `David.C.Roberts@ndsu.edu`  
+- **Kenneth White, Administrative Advisor** - Utah State University - `ken.white@usu.edu`  
 
 ## Annual Reports
 
