@@ -145,7 +145,6 @@ February 25 - 27, 2026
 ---
 
 # Meeting Agenda  
-
 ## To Be Announced 
 - **All sessions take place in the Capitol Room**
   
