@@ -4,7 +4,7 @@ title: Boise Activities
 permalink: /todo-boise/
 ---
 
-# Boise Food & Events (Feb 25–27, 2026)
+# Boise Food & Entertainment (Feb 25–27, 2026)
 
 Whether you're arriving early or staying a few days after the conference, Boise offers plenty of winter-friendly activities, food, drinks, and local culture.
 
