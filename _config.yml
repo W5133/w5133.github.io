@@ -3,6 +3,9 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  
+header_pages:
+  - /2026-agenda/
 
 title: "W5133 Multi-State Project"
 
