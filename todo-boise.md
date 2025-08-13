@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Things to do in Boise
+title: About Boise
 exclude_from_nav: true
 permalink: /todo-boise/
 ---
