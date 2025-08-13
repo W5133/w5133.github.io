@@ -4,4 +4,4 @@ layout: page
 permalink: /annual-reports/
 ---
 
-Below you will find links to annual reports filed by W5133 and previous iterations of the working group.
+[CLICK HERE](https://nimss.org/projects/view/SAES/18858) to access annual reports for the W5133 Multi-State Working Group.
