@@ -92,22 +92,15 @@ Boise’s most beloved breakfast spot, known for scratch-made classics like eggs
 
 Location: 108 S Capitol Blvd (just off the Basque Block)  
 Hours: 7 AM – 2 PM daily  
-Tip: Order the “create your own breakfast” or a mimosa while you wait. Arrive early on weekends or use the Nowait app to check your place in line.
-
 
 ### [8th Street & The Grove Plaza](https://downtownboise.org/go/8th-street-promenade/)
 
 Downtown Boise’s walkable entertainment core — home to dozens of local restaurants, bars, coffee shops, and year-round events. Great for group outings or casual exploring.
-
 Location: Centered around 8th St between Bannock St and Main St; The Grove Plaza is at 827 W Main St  
 What to Do:
 - Stroll along **8th Street** for outdoor dining, breweries, and people-watching
 - Grab a meal at favorites like [Fork](https://www.boisefork.com/), [Bittercreek Alehouse](https://bittercreekalehouse.com/), or [Diablo & Sons](https://diabloandsons.com/)
 - Visit **The Grove Plaza** for local events, food trucks, and public art
-- Access to **Boise Centre**, **Zions Bank building**, and **live music pop-ups**
-
-Tip: Most hotels and venues are within a 5-minute walk, making this a convenient meeting spot for attendees.
-
 
 ### [Fork](https://www.boisefork.com/)
 Farm-to-table American comfort food in a modern space.  
@@ -127,8 +120,6 @@ Location: 202 S Capitol Blvd
 A downtown Boise staple offering elevated pub fare, craft beer, and local ingredients. Known for its seasonal menu, Idaho-grown meats, and great vegetarian options. Cozy yet lively.
 Location: 246 N 8th St  
 Hours: 11 AM – 11 PM daily
-
-
 
 ### [Red Feather Lounge](https://redfeatherlounge.com/)
 
@@ -177,9 +168,7 @@ Location: 224 N 9th St
 
 ### [10 Barrel Brewing Co. – Boise](https://10barrel.com/boise-brewpub/)
 Lively brewpub in the heart of downtown with rooftop seating, classic pub fare, and a wide selection of house-brewed beers.  
-Location: 826 W Bannock St  
-Hours: 11 AM – 11 PM daily  
-Tip: Try the Pub Beer and a burger after exploring downtown.
+Location: 826 W Bannock St    
 
 ---
 
@@ -257,10 +246,6 @@ Location: 816 W Bannock St, Boise, ID
 
 Boise State’s campus is a short walk from downtown and Julia Davis Park, offering educational, cultural, and scenic experiences.
 
-### [Albertsons Library & Special Collections](https://www.boisestate.edu/library/)
-Explore the main library and its rotating exhibits, archives, and local collections.  
-Location: 1865 W Cesar Chavez Ln
-
 ### [Morrison Center for the Performing Arts](https://www.boisestate.edu/morrisoncenter/)
 Home to Broadway shows, orchestras, and local productions.  
 Check the [calendar](https://www.morrisoncenter.com/events) to see if anything is playing during your visit.  
@@ -271,10 +256,6 @@ See Boise State’s iconic blue football field — a unique photo opportunity.
 Location: 1400 Bronco Ln  
 Tip: You can view the field from the Allen Noble Hall of Fame Gallery on non-game days.
 
-### [Center for the Visual Arts](https://www.boisestate.edu/cva/)
-Modern building showcasing student and faculty art exhibitions, right next to the Greenbelt.  
-Location: 1110 S Capitol Blvd  
-Free and open to the public during school hours.
 
 
 ---
@@ -302,7 +283,5 @@ Shuttle option: [Sun Valley Express](https://www.sunvalleyexpress.com/)
 - Rideshare apps (Uber, Lyft) are widely available.
 - E-scooters (Lime, Bird) operate downtown, weather permitting.
 
----
 
-Have a recommendation to share with attendees? Submit it via the [conference contact form](#).
 
