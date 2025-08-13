@@ -1,6 +1,6 @@
 ---
 title: 2026 Annual Meeting
-layout: base
+layout: post
 permalink: /2026-agenda/
 ---
 
