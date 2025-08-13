@@ -6,11 +6,11 @@ plugins:
 
 title: "W5133 Multi-State Project"
 
-minima:
-  header_pages:
-    - index.md
-    - 2026-agenda.md
-    - things-to-do.md
+# minima:
+#    header_pages:
+#      - index.md
+#      - 2026-agenda.md
+ #     - things-to-do.md
 
 include:
   - assets/css/custom.css
