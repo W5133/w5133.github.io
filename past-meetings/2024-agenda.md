@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 permalink: /past-meetings/2024-agenda/
 ---
 
