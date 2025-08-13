@@ -1,5 +1,5 @@
 ---
 layout: blog
-permalink: /past-meetings/2022-agenda/
+permalink: /2020-agenda/
 ---
 test
