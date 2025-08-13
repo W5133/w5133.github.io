@@ -1,7 +1,5 @@
 ---
-title: 2023 Annual Meeting
 layout: page
-exclude_from_nav: true
 permalink: /past-meetings/2023-agenda/
 ---
 
