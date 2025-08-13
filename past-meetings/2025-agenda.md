@@ -4,7 +4,7 @@ permalink: /past-meetings/2025-agenda/
 ---
 
 
-# 2025 Annual Meeting
+## 2025 Annual Meeting
 **Mar 5-7, 2025**  
 **Hotel Vermont, Burlington, VT**  
 
