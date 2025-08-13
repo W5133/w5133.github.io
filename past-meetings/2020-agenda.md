@@ -1,5 +1,5 @@
 ---
 title: 2020 Meeting
-layout: page
+layout: blog
 permalink: /past-meetings/2022-agenda/
 ---
