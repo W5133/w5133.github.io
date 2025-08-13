@@ -4,10 +4,8 @@ layout: post
 permalink: /2026-agenda/
 ---
 
-# Dates: February 25th - February 27th 2026
-# Location
-
-## [Inn at 500 Capitol](https://innat500.com) 
+## Dates: February 25th - February 27th 2026
+## Location: [Inn at 500 Capitol](https://innat500.com) 
 
 500 S Capitol Blvd<br />
 Boise, ID 83702<br />
