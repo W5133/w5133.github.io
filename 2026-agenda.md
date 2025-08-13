@@ -13,7 +13,7 @@ permalink: /2026-agenda/
 Boise, ID 83702<br />
 (208) 227-0500<br />
 February 25 - 27, 2026  
-___
+---
 ## [Things to do in Boise](todo-boise.md) 
 
 ## Abstract Submission
