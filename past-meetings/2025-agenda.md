@@ -8,7 +8,7 @@ permalink: /past-meetings/2025-agenda/
 **Hotel Vermont, Burlington, VT**  
 
 
----
+
 ### Officers  
 - **Corey Lang, President and Workshop Organizer** - University of Rhode Island - `clang@uri.edu`  
 - **Lee Parton, President-Elect** - Boise State University - `leeparton@boisestate.edu`  
@@ -17,7 +17,7 @@ permalink: /past-meetings/2025-agenda/
 
 # W5133 Research Objectives  
 
----
+
 
 ### Objective 1: Evaluate Natural Resource Management Decisions and the Effects of Climate Change  
 - **Task 1-1:** Quantify the Direct and Indirect Impacts of Management Decisions Affecting Agricultural Land, Forests, and Land Use Change  
