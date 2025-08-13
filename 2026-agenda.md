@@ -1,5 +1,5 @@
 ---
-title: 2026 Annual
+title: 2026 Annual Meeting
 layout: page
 permalink: /2026-agenda/
 ---
