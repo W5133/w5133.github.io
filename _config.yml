@@ -12,11 +12,14 @@ minima:
     - 2026-agenda.md
     - things-to-do.md
 
-exclude:
+#exclude:
     - 2020-agenda.md
     - 2022-agenda.md
     - 2023-agenda.md
     - 2024-agenda.md
     - 2025-agenda.md
+include:
+  - assets/css/custom.css
+
 
 
