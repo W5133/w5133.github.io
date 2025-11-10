@@ -15,8 +15,8 @@ February 25 - 27, 2026
 ---
 
 ## Abstract Submission
-- **Abstracts Due:** November 15th, 2025
-- **Acceptance Notification:** December 15th, 2025
+- **Abstracts Due:** December 5th, 2025
+- **Acceptance Notification:** January 5th, 2026
 
   <div style="
     overflow: auto;
