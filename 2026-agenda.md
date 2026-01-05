@@ -209,7 +209,10 @@ ___
 - **4:25 PM** – *Eliciting and Modeling Spatial Salience for Stated Preference Welfare Analysis* – Robert Johnston (Clark University)  
 - **4:45 PM** – Q&A with all presenters  
 
-- **5:00 PM** – Adjourn  
+- **5:00 PM** – Adjourn
+
+---
+
 - **5:10 PM** – W5133 Annual Business Meeting  
 - **6:00 PM** – W5133 Dinner Scramble  
 
