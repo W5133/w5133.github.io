@@ -18,6 +18,8 @@ February 25 - 27, 2026
 - **Abstracts Due:** December 5th, 2025
 - **Acceptance Notification:** January 5th, 2026
 
+### Abstract Submission Closed
+<!--
   <div style="
     overflow: auto;
     display: flex;
@@ -44,7 +46,7 @@ February 25 - 27, 2026
       box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
       border-radius: 6px;
     ">Submit Abstract</a></div></div>
-
+-->
 ---
 
 ## Registration Information  
