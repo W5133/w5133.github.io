@@ -145,23 +145,22 @@ ___
 ---
 
 ## Meeting Agenda  
-- To Be Announced 
 - **All sessions take place in the Capitol Room**
   
 ---
 
-## Wednesday, February 25, 2026  
+### Wednesday, February 25, 2026  
 - **5:00 PM:** Reception (the Inn at 500 Capitol) - Hors d'Oeuvres with cash bar 
 - **7:00 PM:** Dinner on your own (see "Things to do in Boise" for restaurant info) 
 
 ---
 
-## Thursday, February 26, 2026  
+### Thursday, February 26, 2026  
 
 - **7:45 AM:** Registration and Breakfast  
 - **8:25 AM:** Welcome and Logistics  
 
-### Session 1: Recreation Conflict, Congestion, and Site Management (8:30 – 10:05 AM)  
+#### Session 1: Recreation Conflict, Congestion, and Site Management (8:30 – 10:05 AM)  
 *Moderator: Roger H. von Haefen*
 
 - **8:30 AM** – *Machine Learning for Outdoor Recreation: Slope Ski Touring and Conflict Mitigation in the Alps* – **Klaus Moeltner (Virginia Tech)**  
@@ -174,7 +173,7 @@ ___
 
 ---
 
-### Session 2: Recreation, Climate, and Environmental Change (10:25 AM – Noon)  
+#### Session 2: Recreation, Climate, and Environmental Change (10:25 AM – Noon)  
 *Moderator: Nicole Karwowski*
 
 - **10:25 AM** – *Valuing Hawaiʻi’s Trails: A Choice Experiment to Assess Willingness-to-Pay for Sustainable Management of the Nā Ala Hele Trail and Access Program* – **Ruivaldo Viana (University of Hawaiʻi at Mānoa)**  
@@ -187,7 +186,7 @@ ___
 
 ---
 
-### Session 3: Natural Hazards and Risk Responses (1:30 – 3:05 PM)  
+#### Session 3: Natural Hazards and Risk Responses (1:30 – 3:05 PM)  
 *Moderator: Lusi Xie*
 
 - **1:30 PM** – *The Cost of Hurricane Evacuations* – J**acob Gellman (Oregon State University)**  
@@ -200,7 +199,7 @@ ___
 
 ---
 
-### Session 4: Water Quality, Wetlands, and River Restoration (3:25 – 5:00 PM)  
+#### Session 4: Water Quality, Wetlands, and River Restoration (3:25 – 5:00 PM)  
 *Moderator: Ashley Lowe Mackenzie*
 
 - **3:25 PM** – *The Heterogeneous Impacts of Wetlands on Water Quality* – **Nicole Karwowski (Montana State University)**  
@@ -213,16 +212,16 @@ ___
 
 ---
 
-### W5133 Annual Business Meeting - 5:10 PM 
-### W5133 Dinner Scramble - 6:00 PM   
+#### W5133 Annual Business Meeting - 5:10 PM 
+#### W5133 Dinner Scramble - 6:00 PM   
 
 ---
 
-## Friday, February 27, 2026  
+### Friday, February 27, 2026  
 
 - **8:00 AM:** Breakfast  
 
-### Session 5: Agricultural Land Use and Land-Use Externalities (8:30 – 10:05 AM)  
+#### Session 5: Agricultural Land Use and Land-Use Externalities (8:30 – 10:05 AM)  
 *Moderator: Craig Landry*
 
 - **8:30 AM** – *The Agricultural Value of Short-term Weather Forecasts* – **Dale Manning (University of Tennessee)**  
@@ -236,7 +235,7 @@ ___
 ---
 
 
-### Session 6: Advances in Stated Preference and Experimental Design (10:25 AM – Noon)  
+#### Session 6: Advances in Stated Preference and Experimental Design (10:25 AM – Noon)  
 *Moderator: Chen-Ti Chen*
 
 - **10:25 AM** – *Strategic Behavior and Social Desirability Bias in Stated Preference WTP* – **Lusi Xie (University of Georgia)**  
@@ -249,7 +248,7 @@ ___
 
 ---
 
-### Session 7: Climate Adaptation, Ecosystem Services, and Dynamic Amenities (1:30 – 3:05 PM)  
+#### Session 7: Climate Adaptation, Ecosystem Services, and Dynamic Amenities (1:30 – 3:05 PM)  
 *Moderator: Frank Lupi*
 
 - **1:30 PM** – *Wildfire Risk Management in the Electric Utility Sector* – **Meredith Fowlie (UC Berkeley)**  
@@ -262,7 +261,7 @@ ___
 
 ---  
 
-### Session 8: Contingent Valuation, Theory, and Practice (3:25 – 5:00 PM)  
+#### Session 8: Contingent Valuation, Theory, and Practice (3:25 – 5:00 PM)  
 *Moderator: Dale Manning*
 
 - **3:25 PM** – *Contingent Valuation and Voter Error* – **Corey Lang (University of Rhode Island)**  
