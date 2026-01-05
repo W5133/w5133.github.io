@@ -213,8 +213,8 @@ ___
 
 ---
 
-- **5:10 PM** – W5133 Annual Business Meeting  
-- **6:00 PM** – W5133 Dinner Scramble  
+### **W5133 Annual Business Meeting - 5:10 PM** 
+### **W5133 Dinner Scramble - 6:00 PM**   
 
 ---
 
