@@ -166,7 +166,7 @@ ___
 **Moderator:** Roger H. von Haefen
 
 - *8:30 AM* – Machine Learning for Outdoor Recreation: Slope Ski Touring and Conflict Mitigation in the Alps – **Klaus Moeltner (Virginia Tech)**  
-- *8:50 AM* – Visitor Congestion, Visitor Safety, and Willingness to Pay for a Reservation System at a World-Renowned Wildlife Viewing Destination – **Lynne Lewis (Colorado State University)**  
+- *8:50 AM* – Visitor Congestion, Visitor Safety, and Willingness to Pay for a Reservation System at a World-Renowned Wildlife Viewing Destination – **Lynne Lewis & Jayna Mallon (Colorado State University)**  
 - *9:10 AM* – Multi-Destination and Multi-Purpose Trips in Random Utility Model using Mobile Device Trajectory Data: Evidence from Hawaiʻi's Trail System – **Ashley Lowe Mackenzie (University of Hawaiʻi)**  
 - *9:30 AM* – Willingness To Pay for Salmon Viewing at the Issaquah Fish Hatchery – **Sonja Kolstoe (USDA Forest Service)**  
 - *9:50 AM* – Q&A with all presenters  
@@ -179,9 +179,9 @@ ___
 **Moderator:** Nicole Karwowski
 
 - *10:25 AM* – Valuing Hawaiʻi’s Trails: A Choice Experiment to Assess Willingness-to-Pay for Sustainable Management of the Nā Ala Hele Trail and Access Program – **Ruivaldo Viana (University of Hawaiʻi at Mānoa)**  
-- *10:45 AM* – Measuring the Value of Outdoor Recreation for National Environmental-Economic Statistics – **Andie Creel (Yale School of the Environment)**  
-- *11:05 AM* – Wildfire Impact on Recreation in Southern California National Forests – **Matthew Sloggy (USDA Forest Service)**  
-- *11:25 AM* – Welfare Effects of Climate Change on Outdoor Recreation – **Zac Pond (UC Berkeley)**  
+- *10:45 AM* – Wildfire Impact on Recreation in Southern California National Forests – **Matthew Sloggy (USDA Forest Service)**  
+- *11:05 AM* – Welfare Effects of Climate Change on Outdoor Recreation – **Zac Pond (UC Berkeley)**   
+- *11:25 AM* – Gamification Incentives in Stated Preference – **Devon Casper (Boise State University)**
 - *11:45 AM* – Q&A with all presenters  
 
 - **12:00 PM** – Lunch (on your own)  
@@ -191,7 +191,7 @@ ___
 #### Session 3: Natural Hazards and Risk Responses (1:30 – 3:05 PM)  
 **Moderator:** Lusi Xie
 
-- *1:30 PM* – The Cost of Hurricane Evacuations – J**acob Gellman (Oregon State University)**  
+- *1:30 PM* – The Cost of Hurricane Evacuations – **Jacob Gellman (Oregon State University)**  
 - *1:50 PM* – *eyond Official Warnings: How Peer Influence and Social Media Affect Wildfire Evacuation Decisions and Timing – **Jose Sanchez (USDA Forest Service)**  
 - *2:10 PM* – An Econometric Analysis of Wildfire Risk on Forest Management Decisions – **Cade White (Oregon State University)**  
 - *2:30 PM* – Sea Level Rise, Property Sales, and Tradeoffs between Natural and Man-Made Coastal Protection – **Amila Hadziomerspahic (U.S. EPA)**  
