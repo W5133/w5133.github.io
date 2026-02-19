@@ -192,7 +192,7 @@ ___
 **Moderator:** Lusi Xie
 
 - *1:30 PM* – The Cost of Hurricane Evacuations – **Jacob Gellman (Oregon State University)**  
-- *1:50 PM* – *eyond Official Warnings: How Peer Influence and Social Media Affect Wildfire Evacuation Decisions and Timing – **Jose Sanchez (USDA Forest Service)**  
+- *1:50 PM* – Beyond Official Warnings: How Peer Influence and Social Media Affect Wildfire Evacuation Decisions and Timing – **Jose Sanchez (USDA Forest Service)**  
 - *2:10 PM* – An Econometric Analysis of Wildfire Risk on Forest Management Decisions – **Cade White (Oregon State University)**  
 - *2:30 PM* – Sea Level Rise, Property Sales, and Tradeoffs between Natural and Man-Made Coastal Protection – **Amila Hadziomerspahic (U.S. EPA)**  
 - *2:50 PM* – Q&A with all presenters  
