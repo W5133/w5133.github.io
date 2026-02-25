@@ -165,26 +165,26 @@ ___
 #### Session 1: Recreation Conflict, Congestion, and Site Management (8:30 – 10:05 AM)  
 **Moderator:** Roger H. von Haefen
 
-- *8:30 AM* – Machine Learning for Outdoor Recreation: Slope Ski Touring and Conflict Mitigation in the Alps – **Klaus Moeltner (Virginia Tech)**  
-- *8:50 AM* – Visitor Congestion, Visitor Safety, and Willingness to Pay for a Reservation System at a World-Renowned Wildlife Viewing Destination – **Lynne Lewis & Jayna Mallon (Colorado State University)**  
-- *9:10 AM* – Multi-Destination and Multi-Purpose Trips in Random Utility Model using Mobile Device Trajectory Data: Evidence from Hawaiʻi's Trail System – **Ashley Lowe Mackenzie (University of Hawaiʻi)**  
-- *9:30 AM* – Willingness To Pay for Salmon Viewing at the Issaquah Fish Hatchery – **Sonja Kolstoe (USDA Forest Service)**  
-- *9:50 AM* – Q&A with all presenters  
+ 
+- *8:30 AM* – Visitor Congestion, Visitor Safety, and Willingness to Pay for a Reservation System at a World-Renowned Wildlife Viewing Destination – **Lynne Lewis & Jayna Mallon (Colorado State University)**  
+- *8:50 AM* – Multi-Destination and Multi-Purpose Trips in Random Utility Model using Mobile Device Trajectory Data: Evidence from Hawaiʻi's Trail System – **Ashley Lowe Mackenzie (University of Hawaiʻi)**  
+- *9:10 AM* – Willingness To Pay for Salmon Viewing at the Issaquah Fish Hatchery – **Sonja Kolstoe (USDA Forest Service)**  
+- *9:30 AM* – Q&A with all presenters  
 
-- **10:10 AM** – Morning Break  
+- **9:50 AM** – Morning Break  
 
 ---
 
-#### Session 2: Recreation, Climate, and Environmental Change (10:25 AM – Noon)  
+#### Session 2: Recreation, Climate, and Environmental Change (10:05 AM – Noon)  
 **Moderator:** Nicole Karwowski
 
-- *10:25 AM* – Valuing Hawaiʻi’s Trails: A Choice Experiment to Assess Willingness-to-Pay for Sustainable Management of the Nā Ala Hele Trail and Access Program – **Ruivaldo Viana (University of Hawaiʻi at Mānoa)**  
-- *10:45 AM* – Wildfire Impact on Recreation in Southern California National Forests – **Matthew Sloggy (USDA Forest Service)**  
-- *11:05 AM* – Welfare Effects of Climate Change on Outdoor Recreation – **Zac Pond (UC Berkeley)**   
-- *11:25 AM* – Gamification Incentives in Stated Preference – **Devon Casper (Boise State University)**
-- *11:45 AM* – Q&A with all presenters  
+- *10:05 AM* – Valuing Hawaiʻi’s Trails: A Choice Experiment to Assess Willingness-to-Pay for Sustainable Management of the Nā Ala Hele Trail and Access Program – **Ruivaldo Viana (University of Hawaiʻi at Mānoa)**  
+- *10:25 AM* – Wildfire Impact on Recreation in Southern California National Forests – **Matthew Sloggy (USDA Forest Service)**  
+- *10:45 AM* – Welfare Effects of Climate Change on Outdoor Recreation – **Zac Pond (UC Berkeley)**   
+- *11:05 AM* – Gamification Incentives in Stated Preference – **Devon Casper (Boise State University)**
+- *11:25 AM* – Q&A with all presenters  
 
-- **12:00 PM** – Lunch (on your own)  
+- **11:45 PM** – Lunch (on your own)  
 
 ---
 
@@ -240,13 +240,12 @@ ___
 #### Session 6: Advances in Stated Preference and Experimental Design (10:25 AM – Noon)  
 **Moderator:** Chen-Ti Chen
 
-- *10:25 AM* – Strategic Behavior and Social Desirability Bias in Stated Preference WTP – **Lusi Xie (University of Georgia)**  
-- *10:45 AM* – Eliciting Public Support for Hydrogen Infrastructure – **Jamal Mamkhezri (New Mexico State University)**  
-- *11:05 AM* – Hybrid Discrete Choice Experiments – **Jerrod Penn (Louisiana State University)**  
-- *11:25 AM* – Mitigation Strategies for Attribute Non-Attendance – **Kaylee K. Wells (University of Delaware)**  
-- *11:45 AM* – Q&A with all presenters  
+- *10:25 AM* – Strategic Behavior and Social Desirability Bias in Stated Preference WTP – **Lusi Xie (University of Georgia)**   
+- *10:45 AM* – Hybrid Discrete Choice Experiments – **Jerrod Penn (Louisiana State University)**  
+- *11:05 AM* – Mitigation Strategies for Attribute Non-Attendance – **Kaylee K. Wells (University of Delaware)**  
+- *11:25 AM* – Q&A with all presenters  
 
-- **12:00 PM** – Lunch (on your own)  
+- **11:45 PM** – Lunch (on your own)  
 
 ---
 
