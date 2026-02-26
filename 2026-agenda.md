@@ -215,6 +215,7 @@ ___
 
 #### W5133 Annual Business Meeting - 5:00 PM 
 #### W5133 Dinner Scramble - 6:45 PM Reservations  
+#### [Dinner Scramble Assignments](DinnerScramble.pdf)
 
 ---
 
