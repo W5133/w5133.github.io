@@ -222,7 +222,7 @@ ___
 
 - **8:00 AM:** Breakfast  
 
-#### Session 5: Agricultural Land Use and Land-Use Externalities (8:30 – 10:05 AM)  
+#### Session 5: Agricultural Land Use and Land-Use Externalities (8:30 – 10:10 AM)  
 **Moderator:** Craig Landry
 
 - *8:30 AM* – The Agricultural Value of Short-term Weather Forecasts – **Dale Manning (University of Tennessee)**  
@@ -236,7 +236,7 @@ ___
 ---
 
 
-#### Session 6: Advances in Stated Preference and Experimental Design (10:25 AM – Noon)  
+#### Session 6: Advances in Stated Preference and Experimental Design (10:25 AM – 12:05 PM)  
 **Moderator:** Chen-Ti Chen
 
 - *10:25 AM* – Strategic Behavior and Social Desirability Bias in Stated Preference WTP – **Lusi Xie (University of Georgia)**   
@@ -249,7 +249,7 @@ ___
 
 ---
 
-#### Session 7: Climate Adaptation, Ecosystem Services, and Dynamic Amenities (1:30 – 3:05 PM)  
+#### Session 7: Climate Adaptation, Ecosystem Services, and Dynamic Amenities (1:30 – 3:10 PM)  
 **Moderator:** Frank Lupi
 
 - *1:30 PM* – Wildfire Risk Management in the Electric Utility Sector – **Meredith Fowlie (UC Berkeley)**  
