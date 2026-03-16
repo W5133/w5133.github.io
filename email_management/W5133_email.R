@@ -37,6 +37,10 @@ email_subject <- "W5133 Annual Reporting"
 
 cc_email = "wx133.org@gmail.com"
 
+# External HTML email template file
+#email_template_file <- "e1_post_meeting.txt"
+email_template_file <- "e2_reminder1.txt"
+
 # -----------------------------
 # 2) AUTHENTICATE
 # -----------------------------
@@ -68,6 +72,7 @@ recipients <- members %>%
   filter(
     !is.na(email), email != "",
     status == "subscribed",
+    is.na(report_submitted), 
     !is.na(token), token != ""
   ) %>%
   filter(member) %>%
@@ -117,34 +122,20 @@ print(dry_run, n = nrow(dry_run))
 # 5) EMAIL BODY FUNCTION
 # -----------------------------
 
+
 build_email_html <- function(unsub_url) {
-  glue("
-<p>Hello W5133 Member or Affiliate,</p>
+  candidate_paths <- c(
+    email_template_file,
+    file.path("email_management", email_template_file)
+  )
+  template_path <- candidate_paths[file.exists(candidate_paths)][1]
 
-<p>Thank you to Lee for organizing a great meeting in Boise. I had a good time, and I think everyone else did too.</p>
+  if (is.na(template_path)) {
+    stop("Template file not found. Checked: ", paste(candidate_paths, collapse = ", "))
+  }
 
-<p>It is reporting time again. We have 30 days from the conclusion of the annual meeting (March 27) to compile and submit our report. Similar to last year, we will be collecting information via a <a href='https://forms.gle/114uCWJ9Eec9xKhK8'>Google Form</a> to streamline the reporting process. Please complete this form as soon as possible to avoid repeated reminder emails from me. This is particularly important for all project members and those at Land Grant institutions.</p>
-
-<p><strong>Google Form Link:</strong>
-<a href='https://forms.gle/114uCWJ9Eec9xKhK8'>https://forms.gle/114uCWJ9Eec9xKhK8</a></p>
-
-<p>If you have any questions, please let me know. I look forward to seeing you all again next year.</p>
-
-<hr>
-<p><strong>Note:</strong> If you are receiving this email, you are either on the master list for the W5133 Multistate Research Project or listed as a project participant in NIMSS. If you would like to be removed, click <a href='{unsub_url}'>Unsubscribe</a>.</p>
-
-<p>As a reminder, Lee created this great website for our multistate project,
-<a href='https://w5133.github.io/'>https://w5133.github.io/</a>,
-where you can find past and upcoming meeting information.</p>
-
-<p>I've cc'ed an email address, Wx133.org@gmail.com, that I would like to use for future correspondence. In tests on myself, these emails always go to spam. Adding this email to your trusted list will aid in future communication.</p>
-
-<hr>
-<p style='font-size:12px;color:#666;'>
-To unsubscribe from these emails, click here:
-<a href='{unsub_url}'>Unsubscribe</a>
-</p>
-")
+  template_html <- paste(readLines(template_path, warn = FALSE), collapse = "\n")
+  glue(template_html)
 }
 
 # -----------------------------
