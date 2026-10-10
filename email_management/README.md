@@ -1,497 +1,121 @@
-# README: Sending W5133 emails from a Google Sheet using R
+# Sending W5133 emails with R
 
-This document describes how to use the email utility to connect to the googlesheet member list and automate the email process while preserving automatic unsubscribe. The first part is a quickstart for R users, followed by detail instructions.
-
-## Quick Start (for R users)
-
-This guide explains how to run `W5133_email.R` to send emails to W5133 members using a Google Sheet and Outlook.
-
-The script:
-
-1. Reads member data from a **Google Sheet**
-2. Filters **subscribed members**
-3. Builds **personalized unsubscribe links**
-4. Creates **Outlook emails**
-5. Either **creates drafts** or **sends messages**
-
----
-
-### 1. Install required packages
-
-Run once:
-
-```r
-install.packages(c(
-  "googlesheets4",
-  "dplyr",
-  "glue",
-  "Microsoft365R",
-  "blastula",
-  "htmltools"
-))
-```
-
-Load the script in RStudio.
-
----
-
-### 2. Review the SETTINGS section
-
-Near the top of the script.
-
-### Safe test configuration (recommended first run)
-
-```r
-test_mode <- TRUE
-send_now <- FALSE
-draft_limit <- 5
-```
-
-Meaning:
-
-| Setting       | Behavior                                   |
-| ------------- | ------------------------------------------ |
-| `test_mode`   | redirect emails to your test address       |
-| `send_now`    | if FALSE, create drafts instead of sending |
-| `draft_limit` | limits number of test messages             |
-
----
-
-### 3. Verify sheet settings
-
-Confirm these variables:
-
-```r
-sheet_url <- "https://docs.google.com/spreadsheets/..."
-sheet_tab <- "members"
-```
-The googlesheet is called members in the Wx133.org@gmail.com account.
-
-The sheet should contain at least:
-
-```
-email
-status
-token
-member
-```
-
-Recipients must satisfy:
-
-```
-status == "subscribed"
-member == TRUE
-token != NA
-```
-
----
-
-### 4. Authenticate
-
-The script will prompt for login the first time.
-
-```r
-gs4_auth(email = "wx133.org@gmail.com")
-outl <- get_business_outlook()
-```
-
-You may see:
-
-* Google authentication (for Sheets)
-* Microsoft authentication (for Outlook)
-
----
-
-### 5. Run the script
-
-In RStudio:
-
-```
-Source → W5133_email.R
-```
-
-The script will print a **dry-run recipient table** before sending.
-
-Check that the recipients look correct.
-
----
-
-### 6. Check draft emails
-
-If:
-
-```r
-send_now <- FALSE
-```
-
-Emails will appear as **drafts in Outlook**.
-
-Review:
-
-* formatting
-* links
-* unsubscribe URLs
-* CC address
-
----
-
-### 7. Send a single test
-
-Change:
-
-```r
-test_mode <- TRUE
-send_now <- TRUE
-draft_limit <- 1
-```
-
-Run again and confirm the email arrives correctly.
-
----
-
-### 8. Send to all recipients
-
-Only when everything looks correct:
-
-```r
-test_mode <- FALSE
-send_now <- TRUE
-```
-
-Run the script.
-
-Emails will be sent to all subscribed members.
-
-
-
-
-
-
----
-
-## What this script does
-
-This script reads a list of members from a Google Sheet and then creates Outlook emails for the people who should receive a message.
-
-Depending on the settings, it can either:
-
-* **send the emails immediately**, or
-* **prepare drafts first** so you can review them
-
-It also creates a personalized **unsubscribe link** for each recipient.
-
-The script is designed for the W5133 mailing workflow. 
-
----
-
-## What you need before you start
-
-You will need:
-
-* **R** installed on your computer
-* Ideally **RStudio** installed as well
-* Access to the Google Sheet containing the member list
-* Access to the Microsoft 365 / Outlook account that will send the emails
-* Internet access, because the script connects to Google Sheets and Outlook
-
-If you are new to R, the easiest way to run this is in **RStudio**.
-
----
+This folder contains two separate utilities: one sends email using a Google Sheet and Outlook; the other cleans local CSV mailing lists. You do not need to run the cleaning script before each mailing.
 
 ## Files
 
-You should have:
+| File | Purpose |
+| --- | --- |
+| `W5133_email.R` | Reads eligible recipients from Google Sheets and creates Outlook drafts or sends individual messages with personalized unsubscribe links. |
+| `w5133_email_clean.R` | Cleans and checks local CSV email lists, flags potential problems, and joins a separate member list to produce a CSV with a membership flag. Does not send email or update Google Sheets. |
+| `e1_post_meeting.txt` | HTML template for the post-meeting reporting request. |
+| `e2_reminder1.txt` | HTML template for the reporting reminder; currently selected by the sending script. |
 
-* `W5133_email.R` — the main script
-* this README file
+## Quick start: prepare and send an email
 
----
+### 1. Open the project and install packages if needed
 
-## What the script expects in the Google Sheet
-
-The script reads a worksheet tab called `"members"` from the Google Sheet. 
-
-The sheet should contain columns with at least these fields:
-
-* `email` — recipient email address
-* `status` — should be `"subscribed"` for people who should receive mail
-* `token` — used to build the personalized unsubscribe link
-* `member` — logical field indicating whether the person should be included
-
-The script cleans these fields a little by trimming spaces and converting `status` to lower case. 
-
----
-
-## Important warning before you run it
-
-In the current script:
-
-```r
-send_now <- TRUE
-```
-
-That means the script is currently set to **send real emails immediately** once it gets to the sending loop. 
-
-For safety, change that first to:
-
-```r
-send_now <- FALSE
-```
-
-That way you can test without sending.
-
-Also consider turning on:
-
-```r
-test_mode <- TRUE
-```
-
-This will redirect test emails to your own email address instead of real recipients. 
-
----
-
-## Step 1: Install R and RStudio
-
-If you do not already have them:
-
-1. Install **R**
-2. Install **RStudio**
-
-Then open RStudio.
-
----
-
-## Step 2: Install the required R packages
-
-The script uses several packages. Run this in the R console once:
+Open `w5133.github.io.Rproj` in RStudio. Run this once if the packages are not already installed:
 
 ```r
 install.packages(c(
-  "googlesheets4",
-  "dplyr",
-  "glue",
-  "Microsoft365R",
-  "blastula",
-  "htmltools"
+  "googlesheets4", "dplyr", "glue",
+  "Microsoft365R", "blastula", "htmltools"
 ))
 ```
 
-This installs the tools the script needs.
+Open `email_management/W5133_email.R`.
 
-What these packages do, in plain language:
+### 2. Set up a draft test before running
 
-* `googlesheets4` — reads the Google Sheet
-* `dplyr` — helps filter and organize the member list
-* `glue` — helps build custom text
-* `Microsoft365R` — connects to Outlook / Microsoft 365
-* `blastula` — helps format emails
-* `htmltools` — helps render the email body as HTML
-
----
-
-## Step 3: Open the script
-
-Open `W5133_email.R` in RStudio.
-
-You will see several sections. The most important one to edit first is the **SETTINGS** section near the top. 
-
----
-
-## Step 4: Review the settings
-
-Here are the main settings in the script and what they mean.
-
-### Testing options
-
-```r
-test_mode <- FALSE
-test_email <- "jbayham@colostate.edu"
-send_now <- TRUE
-draft_limit <- 5
-```
-
-What they do:
-
-* `test_mode`
-
-  * `TRUE` = do not send to real members; redirect to `test_email`
-  * `FALSE` = use the real addresses from the sheet
-
-* `test_email`
-
-  * where test emails go when `test_mode <- TRUE`
-
-* `send_now`
-
-  * `TRUE` = actually send messages
-  * `FALSE` = create drafts only
-
-* `draft_limit`
-
-  * limits how many test emails are created when in test mode
-
-### Recommended safe test setup
-
-Before doing anything else, use:
+The checked-in script currently has `test_mode <- FALSE` and `send_now <- TRUE`, which sends to real recipients. Change the settings first:
 
 ```r
 test_mode <- TRUE
+test_email <- "jbayham@colostate.edu"
 send_now <- FALSE
-draft_limit <- 5
+draft_limit <- 1
 ```
 
-This is the safest combination for testing.
+| Setting | Behavior |
+| --- | --- |
+| `test_mode <- TRUE` | Uses the first `draft_limit` eligible rows and redirects their To addresses to `test_email`. |
+| `test_mode <- FALSE` | Uses all eligible rows and their real addresses. |
+| `send_now <- FALSE` | Creates Outlook drafts. |
+| `send_now <- TRUE` | Sends messages, with a 10-second pause after each send. |
+| `draft_limit` | Limits messages only in test mode, whether drafting or sending. |
+| `cc_email` | CC address on every message, including tests; currently `wx133.org@gmail.com`. |
 
----
+Test mode changes only the To address: the CC remains active and unsubscribe links still belong to the original members. Do not click a test message's unsubscribe link unless you intend to unsubscribe that member.
 
-### Sheet settings
+### 3. Edit the subject and template
 
-```r
-sheet_url <- "https://docs.google.com/spreadsheets/d/..."
-sheet_tab <- "members"
-```
-
-* `sheet_url` tells the script where the member list lives
-* `sheet_tab` tells it which worksheet tab to read
-
----
-
-### Unsubscribe link base
-
-```r
-base_unsub_url <- "https://script.google.com/macros/s/..."
-```
-
-This is the web address used to build the unsubscribe link for each member. The script appends each person’s token to this URL. 
-
----
-
-### Email settings
+Set the subject and choose the template near the top of the script:
 
 ```r
 email_subject <- "W5133 Annual Reporting"
-cc_email = "wx133.org@gmail.com"
+email_template_file <- "e2_reminder1.txt"
 ```
 
-* `email_subject` is the subject line
-* `cc_email` is the address copied on each message
+Edit the email wording in the selected `.txt` file. These files contain HTML, despite their extension. Update dates and the Google Form link for the new mailing, and preserve the `{unsub_url}` placeholder in unsubscribe links.
 
----
+The script searches for the template in the current working directory and then in `email_management/`, so it works from either the project root or that folder. The `build_email_html()` function reads the template and substitutes the recipient's unsubscribe URL.
 
-## Step 5: Authenticate the first time you run it
+### 4. Check the member sheet and recipient filter
 
-The script includes these authentication steps:
+The configured [Google Sheet](https://docs.google.com/spreadsheets/d/1JEyDDqVjKpPppmDvRs0W17pux8bbUMBEzPLHNS_rH-8) belongs to the `wx133.org@gmail.com` workflow. The script reads its `members` tab and requires these columns:
+
+| Column | Requirement for inclusion |
+| --- | --- |
+| `email` | Nonmissing and nonempty after trimming whitespace. |
+| `status` | `subscribed`, after trimming whitespace and converting to lowercase. |
+| `token` | Nonmissing and nonempty; used to build the unsubscribe URL. |
+| `member` | Used only when `member_filter` is not `"all"`; logical `TRUE` for members or `FALSE` for nonmembers. Missing values are excluded when filtering. |
+| `report_submitted` | Used only when `report_filter` is not `"all"`; missing (`NA`) means not submitted. |
+
+Choose the audience in SETTINGS at the top of `W5133_email.R`; no edits to the filtering code are needed:
+
+```r
+member_filter <- "members"         # "all", "members", or "nonmembers"
+report_filter <- "not_submitted"   # "all", "not_submitted", or "submitted"
+```
+
+These defaults preserve the previous reporting-reminder audience. `"submitted"` means any nonmissing value, including `FALSE` or text, matching the existing sheet convention. For an announcement to everyone subscribed, set both filters to `"all"`. For all subscribed members regardless of reporting, use `member_filter <- "members"` and `report_filter <- "all"`. Subscription, email, and token requirements always apply.
+
+The script does not deduplicate addresses. Each eligible row produces a message.
+
+### 5. Run and authenticate
+
+From the project root, run:
+
+```r
+source("email_management/W5133_email.R")
+```
+
+Or use Source in RStudio with the project root as the working directory.
+
+The script authenticates using:
 
 ```r
 gs4_auth(email = "wx133.org@gmail.com")
 outl <- get_business_outlook()
 ```
 
-The first time you run the script, R will usually open a browser window and ask you to sign in.
+Complete any Google and Microsoft browser sign-in prompts. Use the Microsoft 365 account you intend to send from; the Google account provides Sheet access, not the sending mailbox.
 
-You may need to:
-
-* sign into Google for Sheet access
-* sign into Microsoft 365 for Outlook access
-* grant permission for R to use those services
-
-This is normal.
-
----
-
-## Step 6: Run the script safely
-
-If you are new to R, the easiest way is:
-
-1. Open the script in RStudio
-2. Change the settings to safe test values:
-
-   ```r
-   test_mode <- TRUE
-   send_now <- FALSE
-   ```
-3. Click **Source** in RStudio
-
-Or highlight all the code and run it.
-
----
-
-## What the script does when it runs
-
-The script does the following:
-
-### 1. Reads the member list from Google Sheets
-
-It loads the member worksheet and standardizes some column names and values. 
-
-### 2. Filters the recipient list
-
-It keeps only rows where:
-
-* `email` is present
-* `status == "subscribed"`
-* `token` is present
-* `member` is true
-
-That means only subscribed members with a valid unsubscribe token are included. 
-
-### 3. Creates unsubscribe URLs
-
-Each recipient gets their own unsubscribe link based on their token. 
-
-### 4. Prints a dry-run table
-
-The script prints a table showing who would receive an email. This is very useful for checking before sending. 
-
-### 5. Builds the HTML email body
-
-The body includes:
-
-* a thank-you note about the Boise meeting
-* a link to the Google reporting form
-* a note about why they are receiving the email
-* an unsubscribe link
-* the project website
-* the note about trusting `wx133.org@gmail.com`
-
-### 6. Creates Outlook email objects
-
-For each recipient, the script creates a message in Outlook. Depending on settings, it either:
-
-* sends it immediately, or
-* leaves it as a draft
-
----
-
-## Suggested first test
-
-Use this exact setup first:
+The script prints a recipient table, then immediately proceeds to creating drafts or sending messages. **The table is not an interactive confirmation or a pause.** To stop after inspecting recipients, uncomment this existing line before running:
 
 ```r
-test_mode <- TRUE
-test_email <- "your_email@yourdomain.edu"
-send_now <- FALSE
-draft_limit <- 3
+stop("Dry-run complete. Review recipients above, then comment out this line to create drafts.")
 ```
 
-Then run the script.
+Comment it out again when ready to create messages.
 
-What to check:
+### 6. Review the Outlook draft and send one test
 
-* Did the script authenticate successfully?
-* Did it read the Google Sheet?
-* Did the dry-run table look correct?
-* Did the draft messages appear in Outlook?
-* Did the unsubscribe links look correct?
-* Did the HTML formatting render properly?
+With `send_now <- FALSE`, inspect Outlook Drafts for the subject, formatting, dates, form link, To and CC addresses, and unsubscribe URL. Inspect the unsubscribe URL without activating it for a real member.
 
-Only after that should you try sending.
-
----
-
-## Suggested second test
-
-Once drafts look correct, try:
+To send one test message:
 
 ```r
 test_mode <- TRUE
@@ -499,196 +123,58 @@ send_now <- TRUE
 draft_limit <- 1
 ```
 
-This sends one real test message to yourself.
+Run the script again and check the delivered message. This creates a new message; it does not send the earlier draft.
 
-Check:
+### 7. Send the mailing
 
-* Did it arrive?
-* Did it go to spam?
-* Did the links work?
-* Did the CC behave as expected?
-
----
-
-## Final production run
-
-Only when you are confident everything is correct:
+After reviewing the content and recipient filter, set:
 
 ```r
 test_mode <- FALSE
 send_now <- TRUE
 ```
 
-Be careful: this will send to the real recipient list pulled from the sheet. 
+Run the script. It sends one message per eligible row and CCs `cc_email` on each message. To prepare drafts addressed to all eligible recipients instead, use `test_mode <- FALSE` and `send_now <- FALSE`.
 
----
+There is no persistent sent-message log or automatic resume/deduplication. Results are collected in the R object `draft_results`, but are not saved to a file. Rerunning the script can send duplicate messages, including after a partially completed run. Check Outlook Sent Items before retrying a failed mailing.
 
-## Good safety practices
+## The separate email-cleaning utility
 
-Before a real run:
+`w5133_email_clean.R` is for preparing local mailing-list data. It is independent of the Google Sheet/Outlook sending workflow.
 
-* make sure `status` values in the sheet are correct
-* make sure tokens are present
-* confirm the `member` column is correct
-* test the unsubscribe link
-* send a test to yourself first
-* verify the Google Form link is the correct one
-* verify the CC address is intended
+The script currently changes the working directory to `~/Documents` and uses these files:
 
-A very good extra precaution is to temporarily uncomment this line in the script:
+| File | Role |
+| --- | --- |
+| `w5133_emails_2026.csv` | Input address list, with an `email` column or separate local-part and domain columns. |
+| `w5133_member_emails.csv` | Separate member list with an `email` column, used to assign membership. |
+| `w5133_emails_validated.csv` | Output with normalized addresses, validation results, and review flags. |
+| `w5133_emails_cleaned.csv` | Output combining unique cleaned addresses with the member list and a `member` flag. |
 
-```r
-#stop("Dry-run complete. Review recipients above, then comment out this line to create drafts.")
-```
-
-If you remove the `#`, the script will stop after printing the dry-run table, before creating any messages. That is a useful safety checkpoint. 
-
----
-
-## Common problems and fixes
-
-### Problem: “package not found”
-
-Install the packages again:
+Before running, review the working directory and filenames. Existing output files at those paths will be overwritten. Install its packages if needed:
 
 ```r
-install.packages(c(
-  "googlesheets4",
-  "dplyr",
-  "glue",
-  "Microsoft365R",
-  "blastula",
-  "htmltools"
-))
+install.packages(c("readr", "dplyr", "stringr", "purrr", "tibble", "curl"))
 ```
 
----
+The utility:
 
-### Problem: Google authentication fails
+1. Extracts and normalizes addresses, or reconstructs them from local-part/domain columns.
+2. Checks syntax and flags missing addresses, obvious junk, duplicates, role accounts, and disposable domains.
+3. Attempts DNS checks for domain resolution and MX records, and assigns a validation status.
+4. Writes the validation CSV.
+5. Keeps unique, syntactically valid addresses from the main input, then full-joins the separate member list and writes the cleaned CSV with membership flags.
 
-Try:
+The cleaned output is **not restricted to addresses classified as `likely_valid`**: the main-input filter checks only presence and syntax, and the full join can add addresses from the separate member list. Review the validation output before using the result. DNS checks do not prove an individual mailbox exists.
 
-* making sure you are signed into the correct Google account
-* rerunning the script
-* restarting RStudio and trying again
+The cleaning script does not create subscription statuses or unsubscribe tokens, upload its output to Google Sheets, or send email. Managing those fields in the member sheet is a separate step.
 
----
+## Troubleshooting
 
-### Problem: Outlook authentication fails
-
-Make sure:
-
-* you are using the correct Microsoft 365 account
-* your organization allows API access
-* any browser sign-in popup is completed
-
----
-
-### Problem: No recipients found
-
-The script will stop with:
-
-```r
-stop("No eligible subscribed recipients with tokens were found.")
-```
-
-This usually means one of these is true:
-
-* `email` is blank
-* `status` is not `"subscribed"`
-* `token` is blank
-* `member` is false or missing
-* the script is pointing at the wrong sheet/tab
-
----
-
-### Problem: Emails send immediately when I only wanted drafts
-
-Check this line:
-
-```r
-send_now <- TRUE
-```
-
-Change it to:
-
-```r
-send_now <- FALSE
-```
-
----
-
-### Problem: Test mode still seems wrong
-
-In test mode, the script rewrites the recipient email to `test_email`, but keeps the original address in `actual_recipient` for reference. That behavior is intentional. 
-
----
-
-## How to edit the email text
-
-The message text lives inside this function:
-
-```r
-build_email_html <- function(unsub_url) {
-  ...
-}
-```
-
-You can edit the wording there.
-
-A few tips:
-
-* Keep the unsubscribe link in place
-* Be careful with quotes and HTML tags like `<p>` and `<a>`
-* After editing, always send a test to yourself first
-
----
-
-## Plain-language summary of the workflow
-
-Here is the full process in simple terms:
-
-1. R connects to your Google Sheet
-2. It reads the member list
-3. It keeps only eligible subscribed members
-4. It builds one custom unsubscribe link per person
-5. It creates one email per person in Outlook
-6. It either drafts or sends those messages depending on your settings
-
----
-
-## Recommended beginner workflow
-
-Each time you use the script:
-
-1. Open `W5133_email.R`
-2. Set:
-
-   ```r
-   test_mode <- TRUE
-   send_now <- FALSE
-   ```
-3. Run the script
-4. Check the printed recipient table
-5. Check the Outlook drafts
-6. Send one test to yourself
-7. Only then switch to the real run
-
----
-
-## Optional improvements you may want later
-
-As you get more comfortable with R, you may want to improve the script by adding:
-
-* logging to a CSV file
-* better error handling if one email fails
-* a stronger “draft only” mode
-* a separate preview mode
-* duplicate email detection
-* validation checks on the Google Sheet before sending
-
----
-
-## Contact notes for future users
-
-This script uses both Google and Microsoft authentication, so the first run can feel awkward if you are not used to R. That is normal. Start with test mode, keep `send_now <- FALSE`, and verify every step before sending to the full list.
+- **Package not found:** Install the packages listed for the script you are using.
+- **Google authentication fails:** Confirm access to the configured sheet as `wx133.org@gmail.com` and retry authentication.
+- **Outlook authentication fails:** Confirm the intended Microsoft 365 account and that organizational settings allow API access.
+- **No eligible recipients:** Check `email`, `status`, `token`, `member`, and the current `report_submitted` filter.
+- **Missing `report_submitted` or `member` column:** Add the column if filtering on it, or set the corresponding filter to `"all"`.
+- **Template file not found:** Run from the project root or `email_management/`, and verify `email_template_file` matches an existing file.
+- **More drafts than expected:** `draft_limit` applies only when `test_mode <- TRUE`; each rerun creates additional messages.

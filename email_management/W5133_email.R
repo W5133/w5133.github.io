@@ -13,12 +13,21 @@ library(htmltools)
 # 1) SETTINGS
 # -----------------------------
 
+# Recipient selection (subscription, email, and token checks always apply)
+# "all", "members" (member == TRUE), or "nonmembers" (member == FALSE)
+member_filter <- "nonmembers"
+
+# "all", "not_submitted" (NA), or "submitted" (any nonmissing value)
+# This preserves the sheet's existing convention: NA means not submitted.
+report_filter <- "all"
+# For a meeting announcement to everyone, set both filters to "all".
+
 # Optional: send drafts only to yourself while testing
-test_mode <- FALSE
+test_mode <- F
 test_email <- "jbayham@colostate.edu"
 
 #Send emails or just draft (FALSE)
-send_now <- TRUE
+send_now <- T
 
 # Google Sheet URL or Sheet ID
 sheet_url <- "https://docs.google.com/spreadsheets/d/1JEyDDqVjKpPppmDvRs0W17pux8bbUMBEzPLHNS_rH-8"
@@ -33,17 +42,25 @@ base_unsub_url <- "https://script.google.com/macros/s/AKfycbzeRtpmrqY5dwN6l-KMyA
 draft_limit <- 5
 
 # Subject line
-email_subject <- "W5133 Annual Reporting"
+email_subject <- "W5133 2027 Meeting"
 
 cc_email = "wx133.org@gmail.com"
 
 # External HTML email template file
 #email_template_file <- "e1_post_meeting.txt"
-email_template_file <- "e2_reminder1.txt"
+email_template_file <- "e3_2027_meeting_announcement.txt"
 
 # -----------------------------
 # 2) AUTHENTICATE
 # -----------------------------
+
+# Reject misspelled filter settings before connecting to either service.
+stopifnot(
+  length(member_filter) == 1L,
+  member_filter %in% c("all", "members", "nonmembers"),
+  length(report_filter) == 1L,
+  report_filter %in% c("all", "not_submitted", "submitted")
+)
 
 # Google Sheets auth
 # First run will usually open a browser for OAuth
@@ -67,15 +84,25 @@ members <- read_sheet(sheet_url, sheet = sheet_tab) %>%
     token = trimws(token)
   )
 
-# Keep only active subscribed members with both email and token
+# Always require subscription, email, and an unsubscribe token.
 recipients <- members %>%
   filter(
     !is.na(email), email != "",
     status == "subscribed",
-    is.na(report_submitted), 
     !is.na(token), token != ""
-  ) %>%
-  filter(member) %>%
+  )
+
+# Apply optional audience filters selected in SETTINGS.
+if (member_filter != "all") {
+  recipients <- recipients %>%
+    filter(member == (member_filter == "members"))
+}
+if (report_filter != "all") {
+  recipients <- recipients %>%
+    filter(is.na(report_submitted) == (report_filter == "not_submitted"))
+}
+
+recipients <- recipients %>%
   mutate(
     unsubscribe_url = paste0(base_unsub_url, "?u=", utils::URLencode(token, reserved = TRUE))
   )
