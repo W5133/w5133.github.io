@@ -23,5 +23,6 @@
 <hr>
 <p style='font-size:12px;color:#666;'>
 You are receiving this email because you are on the W5133 mailing list.
-To unsubscribe, click <a href='{unsub_url}'>here</a>.
+To unsubscribe, complete the <a href='{unsub_url}'>unsubscribe form</a>.
+Your email address is prefilled. Check it and click Submit to confirm your request.
 </p>

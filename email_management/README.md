@@ -1,15 +1,16 @@
 # Sending W5133 emails with R
 
-This folder contains two separate utilities: one sends email using a Google Sheet and Outlook; the other cleans local CSV mailing lists. You do not need to run the cleaning script before each mailing.
+This folder contains an Outlook mailer and a separate CSV cleaning utility. The CSV cleaner is not needed for each mailing.
 
 ## Files
 
 | File | Purpose |
 | --- | --- |
-| `W5133_email.R` | Reads eligible recipients from Google Sheets and creates Outlook drafts or sends individual messages with personalized unsubscribe links. |
+| `W5133_email.R` | Reads eligible recipients from Google Sheets and creates Outlook drafts or sends individual messages with personalized Google Form unsubscribe links. |
 | `w5133_email_clean.R` | Cleans and checks local CSV email lists, flags potential problems, and joins a separate member list to produce a CSV with a membership flag. Does not send email or update Google Sheets. |
 | `e1_post_meeting.txt` | HTML template for the post-meeting reporting request. |
-| `e2_reminder1.txt` | HTML template for the reporting reminder; currently selected by the sending script. |
+| `e2_reminder1.txt` | HTML template for the reporting reminder. |
+| `e3_2027_meeting_announcement.txt` | HTML template for the 2027 meeting announcement; currently selected by the sending script. |
 
 ## Quick start: prepare and send an email
 
@@ -46,7 +47,7 @@ draft_limit <- 1
 | `draft_limit` | Limits messages only in test mode, whether drafting or sending. |
 | `cc_email` | CC address on every message, including tests; currently `wx133.org@gmail.com`. |
 
-Test mode changes only the To address: the CC remains active and unsubscribe links still belong to the original members. Do not click a test message's unsubscribe link unless you intend to unsubscribe that member.
+Test mode redirects the To address and prefills the test email address in the unsubscribe form. The CC remains active. Opening the form does not submit an unsubscribe request.
 
 ### 3. Edit the subject and template
 
@@ -69,7 +70,7 @@ The configured [Google Sheet](https://docs.google.com/spreadsheets/d/1JEyDDqVjKp
 | --- | --- |
 | `email` | Nonmissing and nonempty after trimming whitespace. |
 | `status` | `subscribed`, after trimming whitespace and converting to lowercase. |
-| `token` | Nonmissing and nonempty; used to build the unsubscribe URL. |
+| `token` | No longer required or used. Existing values can remain in the sheet. |
 | `member` | Used only when `member_filter` is not `"all"`; logical `TRUE` for members or `FALSE` for nonmembers. Missing values are excluded when filtering. |
 | `report_submitted` | Used only when `report_filter` is not `"all"`; missing (`NA`) means not submitted. |
 
@@ -80,7 +81,7 @@ member_filter <- "members"         # "all", "members", or "nonmembers"
 report_filter <- "not_submitted"   # "all", "not_submitted", or "submitted"
 ```
 
-These defaults preserve the previous reporting-reminder audience. `"submitted"` means any nonmissing value, including `FALSE` or text, matching the existing sheet convention. For an announcement to everyone subscribed, set both filters to `"all"`. For all subscribed members regardless of reporting, use `member_filter <- "members"` and `report_filter <- "all"`. Subscription, email, and token requirements always apply.
+The example above selects the reporting-reminder audience. The current script selects members regardless of reporting (`member_filter <- "members"`, `report_filter <- "all"`). `"submitted"` means any nonmissing value, including `FALSE` or text, matching the existing sheet convention. For an announcement to everyone subscribed, set both filters to `"all"`. For all subscribed members regardless of reporting, use `member_filter <- "members"` and `report_filter <- "all"`. Subscription and email requirements always apply.
 
 The script does not deduplicate addresses. Each eligible row produces a message.
 
@@ -113,7 +114,7 @@ Comment it out again when ready to create messages.
 
 ### 6. Review the Outlook draft and send one test
 
-With `send_now <- FALSE`, inspect Outlook Drafts for the subject, formatting, dates, form link, To and CC addresses, and unsubscribe URL. Inspect the unsubscribe URL without activating it for a real member.
+With `send_now <- FALSE`, inspect Outlook Drafts for the subject, formatting, dates, form link, To and CC addresses, and unsubscribe URL. Open the unsubscribe link and verify the prefilled test email address; leave the confirmation unchecked and do not submit a request for a real member.
 
 To send one test message:
 
@@ -174,7 +175,16 @@ The cleaning script does not create subscription statuses or unsubscribe tokens,
 - **Package not found:** Install the packages listed for the script you are using.
 - **Google authentication fails:** Confirm access to the configured sheet as `wx133.org@gmail.com` and retry authentication.
 - **Outlook authentication fails:** Confirm the intended Microsoft 365 account and that organizational settings allow API access.
-- **No eligible recipients:** Check `email`, `status`, `token`, `member`, and the current `report_submitted` filter.
+- **No eligible recipients:** Check `email`, `status`, `member`, and the current `report_submitted` filter.
 - **Missing `report_submitted` or `member` column:** Add the column if filtering on it, or set the corresponding filter to `"all"`.
 - **Template file not found:** Run from the project root or `email_management/`, and verify `email_template_file` matches an existing file.
 - **More drafts than expected:** `draft_limit` applies only when `test_mode <- TRUE`; each rerun creates additional messages.
+
+## Google Form unsubscribe workflow
+
+The published unsubscribe form is configured by `base_unsub_url` and `unsub_email_entry` in the mailer. Each footer opens the form with the destination email address URL-encoded in `entry.2066026793`. Reasons and confirmation are not prefilled; the recipient must submit the form. The HTML renderer escapes the URL for use in an HTML attribute.
+
+Responses populate **Form Responses 3** in the existing member-list spreadsheet. Review these requests and update member subscription statuses before each mailing. The mailer does not process requests automatically.
+
+Previously sent emails still contain the old Apps Script token links. On November 8, 2026, the original endpoint was updated in place to version 6 of `member_management`. Its `doGet` handler now ignores tokens and displays a link to the new form without reading or changing member records. People following an old link must enter their email and submit the form. The new R email links prefill the email directly.
+

@@ -13,9 +13,9 @@ library(htmltools)
 # 1) SETTINGS
 # -----------------------------
 
-# Recipient selection (subscription, email, and token checks always apply)
+# Recipient selection (subscription and email checks always apply)
 # "all", "members" (member == TRUE), or "nonmembers" (member == FALSE)
-member_filter <- "nonmembers"
+member_filter <- "members"
 
 # "all", "not_submitted" (NA), or "submitted" (any nonmissing value)
 # This preserves the sheet's existing convention: NA means not submitted.
@@ -35,8 +35,14 @@ sheet_url <- "https://docs.google.com/spreadsheets/d/1JEyDDqVjKpPppmDvRs0W17pux8
 # Name of the worksheet tab
 sheet_tab <- "members"
 
-# Your Apps Script unsubscribe endpoint
-base_unsub_url <- "https://script.google.com/macros/s/AKfycbzeRtpmrqY5dwN6l-KMyA-5odAi0Bl5jjSGpeiu4KzxJK8RsOYa-SJuH43b1MAu37fjhQ/exec"
+# Published Google Form; opening this link does not unsubscribe anyone.
+base_unsub_url <- "https://docs.google.com/forms/d/e/1FAIpQLSe0hY9npf83q2eBP15zk7RUa4hDVQfzwpj9oqe3-kQaW2onwA/viewform"
+unsub_email_entry <- "entry.2066026793"
+
+build_unsubscribe_url <- function(email) {
+  paste0(base_unsub_url, "?usp=pp_url&", unsub_email_entry, "=",
+         utils::URLencode(trimws(email), reserved = TRUE, repeated = TRUE))
+}
 
 # Optional: cap number of drafts created while testing
 draft_limit <- 5
@@ -80,16 +86,14 @@ members <- read_sheet(sheet_url, sheet = sheet_tab) %>%
     row_id = row_number() + 1,   # +1 because sheet row 1 is header
     email = trimws(email),
     cc_email = cc_email,
-    status = tolower(trimws(status)),
-    token = trimws(token)
+    status = tolower(trimws(status))
   )
 
-# Always require subscription, email, and an unsubscribe token.
+# Always require subscription and email. Tokens are no longer used.
 recipients <- members %>%
   filter(
     !is.na(email), email != "",
-    status == "subscribed",
-    !is.na(token), token != ""
+    status == "subscribed"
   )
 
 # Apply optional audience filters selected in SETTINGS.
@@ -102,11 +106,6 @@ if (report_filter != "all") {
     filter(is.na(report_submitted) == (report_filter == "not_submitted"))
 }
 
-recipients <- recipients %>%
-  mutate(
-    unsubscribe_url = paste0(base_unsub_url, "?u=", utils::URLencode(token, reserved = TRUE))
-  )
-
 # Optional testing behavior
 if (test_mode) {
   recipients <- recipients %>%
@@ -118,9 +117,13 @@ if (test_mode) {
     mutate(actual_recipient = email)
 }
 
+# Build after test redirection so test messages prefill only the test address.
+recipients <- recipients %>%
+  mutate(unsubscribe_url = build_unsubscribe_url(email))
+
 # Safety check
 if (nrow(recipients) == 0) {
-  stop("No eligible subscribed recipients with tokens were found.")
+  stop("No eligible subscribed recipients were found.")
 }
 
 # -----------------------------
@@ -133,7 +136,6 @@ dry_run <- recipients %>%
     actual_recipient,
     draft_to = email,
     status,
-    token,
     unsubscribe_url
   )
 
@@ -162,6 +164,7 @@ build_email_html <- function(unsub_url) {
   }
 
   template_html <- paste(readLines(template_path, warn = FALSE), collapse = "\n")
+  unsub_url <- htmltools::htmlEscape(unsub_url, attribute = TRUE)
   glue(template_html)
 }
 
