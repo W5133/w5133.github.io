@@ -1,12 +1,13 @@
 # Sending W5133 emails with R
 
-This folder contains an Outlook mailer and a separate CSV cleaning utility. The CSV cleaner is not needed for each mailing.
+This folder contains an Outlook mailer, Google Sheets sync workflows, and a separate CSV cleaning utility. Sync unsubscribe requests before mailing; the CSV cleaner is not needed for each mailing.
 
 ## Files
 
 | File | Purpose |
 | --- | --- |
 | `W5133_email.R` | Reads eligible recipients from Google Sheets and creates Outlook drafts or sends individual messages with personalized Google Form unsubscribe links. |
+| `sync_unsubscribes.R` | Defines the preview, apply, and verify workflow for Google Form unsubscribe requests. Sourcing it does not write or send anything. |
 | `w5133_email_clean.R` | Cleans and checks local CSV email lists, flags potential problems, and joins a separate member list to produce a CSV with a membership flag. Does not send email or update Google Sheets. |
 | `e1_post_meeting.txt` | HTML template for the post-meeting reporting request. |
 | `e2_reminder1.txt` | HTML template for the reporting reminder. |
@@ -184,7 +185,91 @@ The cleaning script does not create subscription statuses or unsubscribe tokens,
 
 The published unsubscribe form is configured by `base_unsub_url` and `unsub_email_entry` in the mailer. Each footer opens the form with the destination email address URL-encoded in `entry.2066026793`. Reasons and confirmation are not prefilled; the recipient must submit the form. The HTML renderer escapes the URL for use in an HTML attribute.
 
-Responses populate **Form Responses 3** in the existing member-list spreadsheet. Review these requests and update member subscription statuses before each mailing. The mailer does not process requests automatically.
+Responses populate **Form Responses 3** in the existing member-list spreadsheet. Run the separate `sync_unsubscribes.R` workflow below before each mailing. The mailer itself does not invoke the sync automatically.
 
 Previously sent emails still contain the old Apps Script token links. On November 8, 2026, the original endpoint was updated in place to version 6 of `member_management`. Its `doGet` handler now ignores tokens and displays a link to the new form without reading or changing member records. People following an old link must enter their email and submit the form. The new R email links prefill the email directly.
 
+## Sync unsubscribe requests before mailing
+
+From the repository root in RStudio:
+
+```r
+# One-time installation, only if missing:
+# install.packages(c("googlesheets4", "digest"))
+source("email_management/sync_unsubscribes.R")
+googlesheets4::gs4_auth(email = "wx133.org@gmail.com")
+
+# 1. PREVIEW: reads only. Review this table before proceeding.
+unsubscribe_preview <- preview_unsubscribes()
+unsubscribe_preview$plan$updates  # proposed status/timestamp changes
+
+# 2. APPLY: explicitly commits the reviewed changes and verifies by re-reading.
+unsubscribe_receipt <- apply_unsubscribes(unsubscribe_preview)
+
+# 3. VERIFY: optional repeat of the verification already performed by apply.
+if (!is.null(unsubscribe_receipt)) verify_unsubscribes(unsubscribe_receipt)
+```
+
+Only proceed to the normal email workflow after verification succeeds and you
+have reviewed unmatched/invalid requests. No Outlook drafts or messages are
+created by this script. `apply_unsubscribes()` returns `NULL` if there is nothing
+to process. If new submissions or sheet edits arrive after preview, apply stops;
+make a fresh preview and review it again.
+
+The script reads `members` and `Form Responses 3` in the existing member-list
+spreadsheet. `members` must include `email`, `status`, and `unsubscribed_at`.
+Missing or ambiguous headers stop the workflow rather than guessing columns.
+
+- Addresses are matched after trimming whitespace and ignoring case.
+- Only the exact affirmative confirmation from the form is accepted.
+- Every matching member row is updated, with duplicates flagged in the preview.
+- `unsubscribed_at` receives the request's original submission timestamp as text,
+  preserving its Sheet representation without guessing a timezone.
+- Already-unsubscribed members retain their existing timestamp. Their new request
+  is still recorded as processed so it cannot override a later resubscription.
+- Unmatched, invalid, and unconfirmed requests stay pending; they are not logged
+  as processed. Correct or resolve these deliberately before mailing.
+- Multiple requests for one email are all logged, but each member row is changed
+  at most once in that batch, using the first pending request in response order.
+
+### How processing once is enforced
+
+The first apply creates `unsubscribe_sync_log` in the same spreadsheet. It records
+response-sheet ID plus original row number, a SHA-256 fingerprint of the four
+response fields, normalized email, submission time, processing time in UTC,
+outcome, and matching member row numbers. Member updates and log entries are
+submitted together in one atomic Sheets `batchUpdate`: either the entire batch
+is accepted or none of it is. Only the status and unsubscribe timestamp cells
+are changed on `members`; other columns are preserved.
+
+**Keep the response tab append-only and preserve the processing log.** Do not
+sort, delete, insert, or edit previously processed response rows, replace the
+response tab, or clear the log. Use filter views to inspect responses. The sync
+refuses to continue if a processed response no longer matches its recorded
+fingerprint. This intentionally requires restoring/reconciling history rather
+than treating moved or edited responses as new unsubscribe requests.
+
+Run only one sync session/operator at a time, and avoid editing the member list
+or log during apply. Sheets does not offer a transaction spanning reads and
+writes: the stale-preview check detects prior changes, but cannot lock out a
+concurrent edit during the brief write window. This is a single-operator workflow,
+not a distributed exactly-once service.
+
+After a network error, apply reads the sheet again. If the log and member values
+match the intended batch, it reports success. Otherwise it stops: inspect a fresh
+preview before retrying and do not send mail until resolved. Fixed log positions
+make retries of the same batch safe from duplicate log appends. A fresh run skips
+processed IDs even if the member has since intentionally resubscribed; a genuinely
+new form submission gets a new ID and can unsubscribe them again.
+
+### Local verification
+
+```sh
+Rscript email_management/tests/test_sync_unsubscribes.R
+```
+
+Tests use an in-memory Sheets adapter and never authenticate, change live data,
+or send email. They cover duplicate members, already-unsubscribed members,
+unmatched/unconfirmed/invalid requests, empty responses, repeated runs,
+resubscription, edited history, stale previews, atomic batch shape, and writes
+that fail before or after committing.
