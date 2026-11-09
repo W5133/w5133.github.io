@@ -1,12 +1,13 @@
 # Sending W5133 emails with R
 
-This folder contains an Outlook mailer, Google Sheets sync workflows, and a separate CSV cleaning utility. Sync unsubscribe requests before mailing; the CSV cleaner is not needed for each mailing.
+This folder contains an Outlook mailer, Google Sheets sync workflows, and a separate CSV cleaning utility. Refresh NIMSS membership and sync unsubscribe requests before mailing; the CSV cleaner is not needed for each mailing.
 
 ## Files
 
 | File | Purpose |
 | --- | --- |
 | `W5133_email.R` | Reads eligible recipients from Google Sheets and creates Outlook drafts or sends individual messages with personalized Google Form unsubscribe links. |
+| `sync_nimss_members.R` | Previews and synchronizes NIMSS membership, appending new addresses with an `added_at` timestamp. |
 | `sync_unsubscribes.R` | Defines the preview, apply, and verify workflow for Google Form unsubscribe requests. Sourcing it does not write or send anything. |
 | `w5133_email_clean.R` | Cleans and checks local CSV email lists, flags potential problems, and joins a separate member list to produce a CSV with a membership flag. Does not send email or update Google Sheets. |
 | `e1_post_meeting.txt` | HTML template for the post-meeting reporting request. |
@@ -273,3 +274,34 @@ or send email. They cover duplicate members, already-unsubscribed members,
 unmatched/unconfirmed/invalid requests, empty responses, repeated runs,
 resubscription, edited history, stale previews, atomic batch shape, and writes
 that fail before or after committing.
+
+## Refresh membership from NIMSS
+
+`sync_nimss_members.R` reads the [project participant list](https://nimss.org/projects/view/participant_list/18858),
+extracts and deduplicates participant email addresses, and compares them with `members`.
+Run this before the unsubscribe sync and before preparing a mailing:
+
+```r
+# If missing: install.packages(c("googlesheets4", "rvest", "xml2"))
+source("email_management/sync_nimss_members.R")
+googlesheets4::gs4_auth(email = "wx133.org@gmail.com")
+nimss_preview <- preview_nimss_members()  # read-only; review additions and departures
+apply_nimss_members(nimss_preview)        # write, then verify
+```
+
+Existing addresses on NIMSS get `member = TRUE`; addresses absent from NIMSS get
+`member = FALSE`. Membership changes do **not** change existing email subscription
+statuses, so an opted-out member stays unsubscribed and a former member can still
+receive general announcements. Missing addresses are appended with `member = TRUE`,
+`status = "subscribed"`, and a name/`added_at` timestamp if those columns exist. Tokens
+are not needed. All existing duplicate rows for an address receive the same member flag.
+Blank-email rows are left alone.
+
+Apply rechecks both sources against the preview, writes only changed member cells
+and new rows in one batch, and verifies the result. Run one sync at a time, with no
+concurrent manual edits. A malformed/empty roster or a participant without a usable
+email aborts the sync. Review unusually large departures before applying: matching
+is by email, so an address change appears as a departure plus a new address. After
+an error, inspect the sheet and create a fresh preview rather than blindly retrying.
+
+Run `Rscript email_management/tests/test_sync_nimss_members.R` for local tests.
