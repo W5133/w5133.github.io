@@ -1,3 +1,9 @@
-# W5133
+# W5133 Website
 
-For the R utilities used to prepare mailing lists and send W5133 emails through Outlook, see [email management instructions](email_management/README.md).
+Email-management scripts, templates, tests, and documentation have moved to
+[W5133/email-management](https://github.com/W5133/email-management).
+
+The local checkout is `../email-management/`; open `email-management.Rproj` there
+to work on the mailer. Earlier mailer history remains in this repository's `main` branch.
+
+The website remains in this repository on the `my-pages` branch.
