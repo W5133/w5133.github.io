@@ -1,20 +1,19 @@
-
-remote_theme: jekyll/minima@v2.5.1 # Specifies the repository and version
-plugins:
-  - jekyll-remote-theme
-  
+remote_theme: jekyll/minima@v2.5.1
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-  
+
 header_pages:
   - index.md
-  - 2026-agenda.md
-  - todo-boise.md
+  - 2027-meeting.md
+  - past-meetings/index.md
 
 title: "W5133 Multi-State Project"
 
-# Trigger rebuild
-
-
-
+# Development files should not be copied into the published site.
+exclude:
+  - README.md
+  - scripts
+  - Gemfile
+  - Gemfile.lock
+  - vendor

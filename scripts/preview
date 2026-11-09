@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Run from any directory; no Git or publishing operations are performed.
+set -euo pipefail
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.."
+
+mode="${1:-serve}"
+if [[ "$mode" != "serve" && "$mode" != "build" ]]; then
+  echo "Usage: $0 [serve|build]" >&2
+  exit 2
+fi
+if ! bundle check; then
+  echo "Install the site dependencies with: bundle install" >&2
+  exit 1
+fi
+if [[ "$mode" == "build" ]]; then
+  exec bundle exec jekyll build
+fi
+exec bundle exec jekyll serve --host 127.0.0.1 --port "${PREVIEW_PORT:-4000}" --livereload

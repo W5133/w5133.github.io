@@ -4,6 +4,10 @@ layout: post
 permalink: /2026-agenda/
 ---
 
+> **Archived meeting:** The 2026 Boise meeting has concluded. Registration and the hotel booking offer are closed. See the [2027 meeting information]({{ '/2027-meeting/' | relative_url }}) for the upcoming meeting.
+
+[Things to do in Boise — food, activities, and local attractions]({{ '/todo-boise/' | relative_url }})
+
 ## Dates: February 25th - February 27th 2026
 ## Location: [Inn at 500 Capitol](https://innat500.com) 
 
@@ -55,66 +59,15 @@ February 25 - 27, 2026
 - **Registration Deadline:** January 15th, 2026
 - Please indicate if you will participate in the Thursday night Dinner Scramble at checkout.
 
-  <div style="
-  overflow: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 259px;
-  background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
-  border-radius: 10px;
-  font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
-  ">
-  <div style="padding: 20px;">
-    <a target="_blank" href="https://square.link/u/sRSAKFVE?src=embed" style="
-    display: inline-block;
-    font-size: 18px;
-    line-height: 48px;
-    height: 48px;
-    color: #ffffff;
-    min-width: 212px;
-    background-color: #0366d6;
-    text-align: center;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
-    border-radius: 6px;
-  ">Register & Pay</a></div></div>
+**Registration is closed.**
 
 ---
 
 ## Room Booking
-- A negitioated room rate of $215/night is available for the first 30 reservations.
-- To obtain the GSA per diem rate please contact the Inn at 500 sales coordinator (Sophie) at (208)391-2041. (Limited Supply)
-- To book directly use the link below.
+- A negotiated room rate of $215/night was available for the first 30 reservations.
+- A limited number of rooms were offered at the GSA per diem rate.
 
-  <div style="
-  overflow: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  width: 259px;
-  background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
-  border-radius: 10px;
-  font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
-  ">
-  <div style="padding: 20px;">
-    <a target="_blank" href="https://be.synxis.com/?adult=1&arrive=2026-02-25&chain=26216&child=0&currency=USD&depart=2026-02-28&group=FIVE0226&hotel=75915&level=hotel&locale=en-US&productcurrency=USD&rooms=1" style="
-    display: inline-block;
-    font-size: 18px;
-    line-height: 48px;
-    height: 48px;
-    color: #ffffff;
-    min-width: 212px;
-    background-color: #0366d6;
-    text-align: center;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
-    border-radius: 6px;
-  ">Room Booking</a></div></div>
+**The 2026 room block is closed.**
 
 ---
 
@@ -153,7 +106,7 @@ ___
 
 ### Wednesday, February 25, 2026  
 - **5:00 PM:** Reception (the Inn at 500 Capitol) - Hors d'Oeuvres with cash bar 
-- **7:00 PM:** Dinner on your own (see "Things to do in Boise" for restaurant info) 
+- **7:00 PM:** Dinner on your own (see [Things to do in Boise]({{ '/todo-boise/' | relative_url }}) for restaurant info)
 
 ---
 
@@ -215,7 +168,7 @@ ___
 
 #### W5133 Annual Business Meeting - 5:00 PM 
 #### W5133 Dinner Scramble - 6:45 PM Reservations  
-#### [Dinner Scramble Assignments](DinnerScramble.pdf)
+#### [Dinner Scramble Assignments]({{ '/assets/DinnerScramble.pdf' | relative_url }})
 
 ---
 

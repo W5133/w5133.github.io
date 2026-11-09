@@ -4,3 +4,11 @@
 .Ruserdata
 *.DS_Store
 *.Rproj
+
+# Jekyll build output and local dependencies
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
